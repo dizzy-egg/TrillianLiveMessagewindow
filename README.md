@@ -26,4 +26,6 @@ This is a skin/theme for [Trillian](https://trillian.im/) which has been designe
 
 This skin was originally developed and released by Trillian forum user Scream81. The forum post, which is no longer available, was located at http://forums.ceruleanstudios.com/showthread.php?t=105070
 
+Modified to support Trillian's "Mobile" status (changing the avatar border to blue when the user is on mobile).
+
 With thanks to the Trillian developers for continuing support of Trillian 5 skins (and theming in general) in version 6 onwards.
