@@ -1,0 +1,2392 @@
+	<control name="swcMediumFrame" type="switcher">
+		<background name="AIM" type=	"online"><source name="48online" 	left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="AIM" type=	"offline"><source name="48offline"	left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="AIM" type=	"away"><source name="48away" 		left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="AIM" type=	"mobile"><source name="48online" 	left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="AIM" type=	"idle"><source name="48away" 		left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="AIM" type=	"invisible"><source name="48invisible" left="0" right="67" top="	0	" bottom="	67	"/></background>
+
+		<background name="ASTRA" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="ASTRA" type=	"free for chat"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="ASTRA" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="ASTRA" type=	"mobile"><source name="96mobile"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="ASTRA" type=	"Mobile"><source name="96mobile"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="ASTRA" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="ASTRA" type=	"Away from Trillian"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="ASTRA" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="FACEBOOK" type=	"online"><source name="48online" 	left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="FACEBOOK" type=	"offline"><source name="48offline"	left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="FACEBOOK" type=	"away"><source name="48away" 		left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="FACEBOOK" type=	"invisible"><source name="48invisible" left="0" right="67" top="	0	" bottom="	67	"/></background>
+
+		<background name="FOURSQUARE" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="FOURSQUARE" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="FOURSQUARE" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="FOURSQUARE" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="GOOGLE" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="GOOGLE" type=	"free for chat"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="GOOGLE" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="GOOGLE" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="GOOGLE" type=	"extended away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="GOOGLE" type=	"do not disturb"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="GOOGLE" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="ICQ" type=	"online"><source name="48online" 	left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="ICQ" type=	"free for chat"><source name="48online" 	left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="ICQ" type=	"offline"><source name="48offline"	left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="ICQ" type=	"away"><source name="48away" 		left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="ICQ" type=	"busy"><source name="48away" 		left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="ICQ" type=	"not available"><source name="48away" 		left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="ICQ" type=	"do not disturb"><source name="48away" 		left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="ICQ" type=	"occupied"><source name="48away" 		left="0" right="67" top="	0	" bottom="	67	"/></background>
+		<background name="ICQ" type=	"invisible"><source name="48invisible" left="0" right="67" top="	0	" bottom="	67	"/></background>
+
+		<background name="IRC" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="IRC" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="IRC" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="IRC" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="JABBER" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="JABBER" type=	"free for chat"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="JABBER" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="JABBER" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="JABBER" type=	"extended away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="JABBER" type=	"do not disturb"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="JABBER" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="LCS" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="LCS" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="LCS" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="LCS" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="LINKEDIN" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="LINKEDIN" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="LINKEDIN" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="LINKEDIN" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="META" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="META" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="META" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="META" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="MSN" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MSN" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MSN" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MSN" type=	"idle"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MSN" type=	"be right back"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MSN" type=	"busy"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MSN" type=	"on the phone"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MSN" type=	"out to lunch"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MSN" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+		
+		<background name="MYSPACE" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MYSPACE" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MYSPACE" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="MYSPACE" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="NOVELL" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="NOVELL" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="NOVELL" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="NOVELL" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="RENDEZVOUS" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="RENDEZVOUS" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="RENDEZVOUS" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="RENDEZVOUS" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="SAMETIME" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SAMETIME" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SAMETIME" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SAMETIME" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="SCHUELERVZ" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SCHUELERVZ" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SCHUELERVZ" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SCHUELERVZ" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+		
+		<background name="SKYPE" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SKYPE" type=	"skypeme"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SKYPE" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SKYPE" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SKYPE" type=	"na"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SKYPE" type=	"do not disturb"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="SKYPE" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="TWITTER" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="TWITTER" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="TWITTER" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="TWITTER" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="VZ" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="VZ" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="VZ" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="VZ" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+		
+		<background name="XFIRE" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="XFIRE" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="XFIRE" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="XFIRE" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+
+		<background name="YAHOO" type=	"online"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"offline"><source name="96offline"	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"away"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"idle"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"custom"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"mobile"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"busy"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"not at home"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"not at my desk"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"not in the office"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"on vacation"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"on the phone"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"out to lunch"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"stepped out"><source name="96away" 		left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"invisible"><source name="96invisible" left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<background name="YAHOO" type=	"webcam"><source name="96online" 	left="0" right="127" top="	0	" bottom="	127	"/></background>
+		<settings name="stretch" value="1"/>
+</control>
+
+<control name="status-tooltip" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="9"/>
+	<forecolor red="0" green="0" blue="0" />
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="top"/>
+</control>
+
+<control name="status-tooltip-center" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="9"/>
+	<forecolor red="0" green="0" blue="0" />
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="TopTitleName" type="topic">
+	<font name="default" source="segoeui" type="Segoe UI" size="14" bold="0" italic="0"/>
+	<font name="normal" source="segoeui" type="Segoe UI" size="14" bold="0" italic="0"/>
+	<color name="default-fore" red="45" green="45" blue="45" filter_source="hueshift"/> 
+	<color name="normal-fore" red="45" green="45" blue="45" filter_source="hueshift"/> 
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="TopTitleSub" type="topic">
+	<font name="default" source="segoeui symbol" type="Segoe UI Symbol" size="9" bold="0" italic="0"/>
+	<font name="normal" source="segoeui symbol" type="Segoe UI Symbol" size="9" bold="0" italic="0"/>
+	<color name="default-fore" red="45" green="45" blue="45" filter_source="hueshift"/> 
+	<color name="normal-fore" red="45" green="45" blue="45" filter_source="hueshift"/> 
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="theirname" type="topic">
+	<font name="default" source="segoeui" type="Segoe UI" size="9" bold="1" italic="0"/>
+	<font name="normal" source="segoeui" type="Segoe UI" size="9" bold="1" italic="0"/>
+	<color name="default-fore" red="47" green="77" blue="111" filter_source="hueshift"/> 
+	<color name="normal-fore" red="47" green="77" blue="111" filter_source="hueshift"/> 
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="hideavatar" type="resizeable-button">
+	<background  transparent="1" middle="1" stretch="1" type="over" >
+		<source name="bmpTrillianLiveAssets" left="0" top="104" right="12" bottom="233"/> 
+		<slice left="0" top="150" right="12" bottom="183"/> 
+	</background>
+	<background  transparent="1" middle="1" stretch="1" type="push" >
+		<source name="bmpTrillianLiveAssets" left="15" top="104" right="27" bottom="233"/> 
+		<slice left="15" top="150" right="27" bottom="183"/> 
+	</background>
+	<tooltip text="Hide Avatar Panel" />
+		<event name="onClick">
+	<action name="setVariable" variable="%showavatar%" value="0"/>
+		</event>
+</control>
+
+<control name="showavatar" type="resizeable-button">
+	<background  transparent="1" middle="1" stretch="1" type="over" >
+		<source name="bmpTrillianLiveAssets" left="0" top="104" right="12" bottom="233"/> 
+		<slice left="0" top="150" right="12" bottom="183"/> 
+	</background>
+	<background  transparent="1" middle="1" stretch="1" type="push" >
+		<source name="bmpTrillianLiveAssets" left="15" top="104" right="27" bottom="233"/> 
+		<slice left="15" top="150" right="27" bottom="183"/> 
+	</background>
+	<tooltip text="Show Avatar Panel" />
+		<event name="onClick">
+	<action name="setVariable" variable="%showavatar%" value="1"/>
+		</event>
+</control>
+
+<!-- Scroll Up button -->
+<control name="scrollup-blank" type="button">
+	<background name="flat">
+		<source name="scrollbars-asset" left="113" top="0" right="128" bottom="16"/>
+	</background>
+	<background name="over">
+		<source name="scrollbars-asset" left="15" top="0" right="30" bottom="16"/>
+	</background>
+	<background name="push">
+		<source name="scrollbars-asset" left="30" top="0" right="45" bottom="16"/>
+	</background>
+</control>
+
+<!-- Scrolldown button -->
+<control name="scrolldown-blank" type="button">
+	<background name="flat">
+		<source name="scrollbars-asset" left="113" top="16" right="128" bottom="32"/>
+	</background>
+	<background name="over">
+		<source name="scrollbars-asset" left="15" top="16" right="30" bottom="32"/>
+	</background>
+	<background name="push">
+		<source name="scrollbars-asset" left="30" top="16" right="45" bottom="32"/>
+	</background>
+</control>
+
+<control name="toolbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="tool-switcher" name="emoticon-switcher">
+		<rect>
+			<left num="8+(%this.push%)" width="0"/>
+			<top num="4+(%this.push%)" height="0"/>
+			<right num="24+(%this.push%)" width="0"/>
+			<bottom num="20+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- Button Arrow -->
+	<icontrol source="downarrow" name="arrow" visible="1">
+		<rect>
+			<left num="20-(%this.push%)" width="1"/>
+			<top num="4+(%this.push%)" height="0"/>
+			<right num="7-(%this.push%)" width="1"/>
+			<bottom num="20+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+
+	<settings name="menu-align" value="right"/>
+	<settings name="menu-direction" value="down"/>
+</control>
+
+<control name="tool-switcher" type="switcher">
+	<background name="flat">
+		<source name="general16-asset-notheme" left="16" top="32" right="32" bottom="48"/> <!-- no theme -->
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="theirstatus" type="topic">
+	<font name="default" source="segoeui" type="Segoe UI" size="9" bold="0" italic="0"/> <!-- normal mode -->
+	<font name="normal" source="segoeui" type="Segoe UI" size="9" bold="0" italic="0"/> <!-- edit mode -->
+	<color name="default-fore" red="100" green="100" blue="100" /> 
+	<color name="normal-fore" red="100" green="100" blue="100" /> 
+	<color name="url-fore" red="79" green="129" blue="189"/>
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+</control>
+
+<control name="sendbutton" type="resizeable-button">
+
+	&defaultbutton;
+
+	<icontrol source="sendbutton-topic" name="edit-count-relative">
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="0" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="sendbutton-topic" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" /> <!-- red="30" green="57" blue="91" -->
+	<color name="over-fore" red="0" green="0" blue="0" />
+	<color name="push-fore" red="0" green="0" blue="0" />
+	<color name="disabled-fore" red="58" green="72" blue="85" />
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Send"/>
+</control>
+
+<control name="addbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="addbuttontext" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="addbuttontext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Add Contact"/>
+</control>
+
+<control name="blockbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="blockbuttontext" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="blockbuttontext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Block"/>
+</control>
+
+<control name="msg-video" type="video">
+	<font 	name="default" source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<font 	name="local-pip-name" source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<font 	name="local-name" source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<font 	name="local-status" source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<font 	name="remote-name" source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<font 	name="remote-status" source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<font 	name="chat" source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+
+	<color	name="default-fore"		red="255" 	green="255" 	blue="255"/> 
+	<color	name="local-pip-name-fore"	red="255" 	green="255" 	blue="255"/> 
+	<color	name="local-name-fore"		red="255" 	green="255" 	blue="255"/> 
+	<color	name="local-status-fore"	red="255" 	green="255" 	blue="255"/> 
+	<color	name="remote-name-fore"		red="255" 	green="255" 	blue="255"/> 
+	<color	name="remote-status-fore"	red="192" 	green="192" 	blue="192"/> 
+	<color	name="chat-fore"		red="255" 	green="255" 	blue="255"/> 
+
+	<settings name="videoSpacingX"	value="10"/>
+	<settings name="videoSpacingY"	value="10"/>
+
+	<item name="local">
+		<color red="0" green="0" blue="0"><rect><bottom num="45" height="1"/></rect></color>
+		<icontrol name="video"><rect><left num="1" width="0"/><right num="1" width="1"/><top num="1" height="0"/><bottom num="44" height="1"/></rect></icontrol>
+		<icontrol name="name"><rect><left num="5" width="0"/><right num="5" width="1"/><top num="34" height="1"/><bottom num="16" height="1"/></rect><settings name="text-alignment" value="center"/></icontrol>
+		<icontrol name="message"><rect><left num="5" width="0"/><right num="5" width="1"/><top num="12" height="0"/></rect><settings name="text-alignment" value="center"/></icontrol>
+	</item>
+
+	<item name="remote" defaultx="%this.video.width% + 2" defaulty="%this.video.height% + 44" minx="82" miny="(80 * %this.video.aspectratio%) + 44">
+		<color red="0" green="0" blue="0"><rect><bottom num="45" height="1"/></rect></color>
+		<icontrol name="video"><rect><left num="1" width="0"/><right num="1" width="1"/><top num="1" height="0"/><bottom num="44" height="1"/></rect></icontrol>
+		<icontrol name="name"><rect><left num="5" width="0"/><right num="5" width="1"/><top num="34" height="1"/><bottom num="16" height="1"/></rect><settings name="text-alignment" value="center"/></icontrol>
+			<icontrol name="message"><rect><left num="5" width="0"/><right num="5" width="1"/><top num="12" height="0"/></rect><settings name="text-alignment" value="center"/></icontrol>
+	</item>
+
+	<item name="local-pip" defaultx="80 + 2" defaulty="(80 * %this.video.aspectratio%) + 26">
+		<background middle="0"><source name="bmpVideoThumbnail" left="0" right="100" top="0" bottom="100"/><slice left="1" right="99" top="1" bottom="74"/></background>
+		<icontrol name="video"><rect><left num="1" width="0"/><right num="1" width="1"/><top num="1" height="0"/><bottom num="26" height="1"/></rect></icontrol>
+		<icontrol name="name"><rect><left num="5" width="0"/><right num="5" width="1"/><top num="22" height="1"/><bottom num="4" height="1"/></rect><settings name="text-alignment" value="center"/></icontrol>
+	</item>
+
+	<item name="chat" defaulty="%this.chat.desired_height% + 10"> <!-- or a fixed height taken from preferences -->
+		<icontrol name="chat"><rect><top num="10" height="0"/></rect><settings name="text-alignment" value="center"/></icontrol>
+	</item>
+</control>
+
+<control name="videobutton" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="videobuttontext" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+	<event name="onClick">
+		<action name="setVariable" variable="%privmsg.phase.video%" value="1"/>
+	</event>
+	<tooltip text="&word-btn-Cordonata:PM:Tabs:Video;"/>
+</control>
+
+<control name="videobuttontext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Video"/>
+</control>
+
+<control name="callbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="callbuttontext" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="12" width="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="downarrow" name="arrow" visible="1">
+		<rect>
+			<left num="16" width="1"/>
+			<top num="2" height="0"/>
+			<right num="2" width="1"/>
+			<bottom num="18" height="0"/>
+		</rect>
+	</icontrol>
+
+	<settings name="menu-align" value="left"/>
+	<settings name="menu-direction" value="down"/>
+</control>
+
+<control name="callbuttontext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Call"/>
+</control>
+
+<control name="profilebutton" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="profilebuttontext" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="profilebuttontext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Profile"/>
+</control>
+
+<control name="historybutton" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="historybuttontext" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+
+</control>
+
+<control name="historybuttontext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="History"/>
+</control>
+
+<control name="sendfilebutton" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="sendfilebuttontext" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+
+</control>
+
+<control name="sendfilebuttontext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Send File"/>
+</control>
+
+<control name="invitebutton" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="invitebuttontext" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+
+</control>
+
+<control name="invitebuttontext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Invite"/>
+</control>
+
+<control name="info-button" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="infobutton-text" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+
+</control>
+
+<control name="morebutton" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="morebuttontext" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="12" width="1"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="downarrow" name="arrow" visible="1">
+		<rect>
+			<left num="16" width="1"/>
+			<top num="2" height="0"/>
+			<right num="2" width="1"/>
+			<bottom num="18" height="0"/>
+		</rect>
+	</icontrol>
+
+	<settings name="menu-align" value="right"/>
+	<settings name="menu-direction" value="down"/>
+</control>
+
+<control name="morebuttontext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="More"/>
+</control>
+
+<control name="infobutton-text" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Info"/>
+</control>
+<control name="Remotebuddyicon" type="switcher">
+	<background name="empty">
+		<source name="head96" left="0" top="0" right="96" bottom="96"/>
+	</background>	
+	<settings name="default" value="empty"/>
+</control>
+
+<control name="profile-button" type="resizeable-button">
+	&hover-button-art;
+
+	<!-- Button Text -->
+	<icontrol source="profilebutton-text" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+	<event name="onClick">
+		<action name="setVariable" variable="%viewprofile%" value="1"/>
+	</event>
+</control>
+
+<control name="profilebutton-text" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Profile"/>
+</control>
+
+<control name="toolframebar" type="framebar">
+	<include-frame source="framebar-info" visible="%message.info.capable%"/>
+	<include-frame source="framebar-add" visible="(!%message.contact%)*(!%message.auth%)*(!%message.conference%)"/>
+	<include-frame source="framebar-block" visible="(!%message.contact%)*(!%message.auth%)*(!%message.conference%)"/>
+	<include-frame source="framebar-call" visible="(%message.audio.capable% || %message.video.capable%)"/>
+	<include-frame source="framebar-invite" visible="%message.conference.invite.capable%"/>
+	<include-frame source="framebar-sendfile" visible="%message.file.capable%"/>
+	<include-frame source="framebar-history" visible="%message.history.capable%"/>
+</control>
+
+<control name="editframebar" type="framebar">
+	<include-frame source="framebar-drawmode" visible="%message.draw.capable%*(!%message.draw%)"/>
+	<include-frame source="framebar-drawmode-off" visible="%message.draw.capable%*(%message.draw%)"/>
+	<include-frame source="framebar-separator" visible="%message.draw.capable%"/>
+	<include-frame source="framebar-pencilbutton" visible="%message.draw%"/>
+	<include-frame source="framebar-highlighterbutton" visible="%message.draw%"/>
+	<include-frame source="framebar-eraserbutton" visible="%message.draw%"/>
+	<include-frame source="framebar-colorbutton" visible="%message.draw%"/>
+	<include-frame source="framebar-wipebutton" visible="%message.draw%"/>
+	<include-frame source="framebar-separator" visible="%message.draw%"/>
+	<include-frame source="framebar-style" visible="!%message.draw%"/>
+	<include-frame source="framebar-insert" visible="!%message.draw%"/>
+	<include-frame source="framebar-emoticon" visible="!%message.draw%"/>
+	<include-frame source="framebar-buzzer" visible="%message.buzz.capable%"/>
+
+
+</control>
+
+<!-- M E S S A G E   W I N D O W   C O N T R O L S -->
+
+<control name="normal-chatview" type="display">
+	<!-- FONT SETTINGS -->
+	<font name="default" source="segoeui" type="Segoe UI" size="9"/>
+	<font name="normal" source="segoeui" type="Segoe UI" size="9"/>
+	<font name="name" source="segoeui" type="Segoe UI" size="8" bold="1" />
+	<font name="local-me" source="segoeui" type="Segoe UI" size="9"/>
+	<font name="remote-me" source="segoeui" type="Segoe UI" size="9"/>
+	<font name="system" source="segoeui" type="Segoe UI" size="9"/>
+	<font name="history" source="segoeui" type="Segoe UI" size="8"/>
+	<font name="warning" source="segoeui" type="Segoe UI" size="8"/>
+	<font name="reltime" source="segoeui" type="Segoe UI" size="8"/>
+	<font name="abstime" source="segoeui" type="Segoe UI" size="8"/>
+
+
+	<!-- FONT COLOR SETTINGS -->
+	<color name="default-back" red="-1" green="-1" blue="-1" />
+	<color name="default-fore" red="0" green="0" blue="0"/>
+
+	<!-- For Selected Text -->
+
+	<color name="select-fore" red="255" green="255" blue="255" />
+	<color name="select-back" red="51" green="153" blue="255" />
+
+	<color name="remote-name-fore" red="50" green="50" blue="50" />
+	<color name="remote-me-fore" red="50" green="50" blue="50" />
+	<color name="remote-text-fore" red="50" green="50" blue="50" />
+	<color name="remote-history-fore" red="32" green="129" blue="194" />
+
+	<color name="local-name-fore" red="50" green="50" blue="50" />
+	<color name="local-me-fore" red="50" green="50" blue="50" />
+	<color name="local-text-fore" red="50" green="50" blue="50" />
+	<color name="local-history-fore" red="32" green="129" blue="194" />
+
+	<color name="url-fore" red="79" green="129" blue="189" filter_source="hueshift"/>
+	<color name="url-line" red="79" green="129" blue="189" filter_source="hueshift"/>
+
+	<color name="system-fore" red="40" green="60" blue="85"	 filter_source="hueshift"/>
+
+	<color name="reltime-fore" red="40" green="60" blue="85" filter_source="hueshift"/> 
+	<color name="abstime-fore" red="40" green="60" blue="85" filter_source="hueshift"/>
+</control>
+
+<!-- Message Display -->
+<control name="display-console" type="display">
+
+	<!-- FONT SETTINGS -->
+	<font name="default" source="segoeui" type="Segoe UI" size="9"/>
+	<font name="normal" source="segoeui" type="Segoe UI" size="9"/>
+	<font name="name" source="segoeui" type="Segoe UI" size="8" bold="1" />
+	<font name="local-me" source="segoeui" type="Segoe UI" size="8"/>
+	<font name="remote-me" source="segoeui" type="Segoe UI" size="8"/>
+	<font name="system" source="segoeui" type="Segoe UI" size="8"/>
+	<font name="history" source="segoeui" type="Segoe UI" size="8"/>
+	<font name="warning" source="segoeui" type="Segoe UI" size="8"/>
+	<font name="reltime" source="segoeui" type="Segoe UI" size="8"/>
+	<font name="abstime" source="segoeui" type="Segoe UI" size="8"/>
+	<font name="typing" source="segoeui" type="Segoe UI" size="8"/>
+
+	<!-- FONT COLOR SETTINGS -->
+	<color name="default-back" red="-1" green="-1" blue="-1" />
+	<color name="default-fore" red="0" green="0" blue="0"/>
+
+	<!-- For Selected Text -->
+
+	<color name="select-fore" red="255" green="255" blue="255" />
+	<color name="select-back" red="51" green="153" blue="255" />
+
+	<color name="remote-name-fore" red="192" green="64" blue="0" />
+	<color name="remote-me-fore" red="66" green="70" blue="82" filter_source="hueshift"/>
+	<color name="remote-text-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="remote-history-fore" red="132" green="140" blue="164" filter_source="hueshift"/>
+
+	<color name="local-name-fore" red="0" green="128" blue="192" />
+	<color name="local-me-fore" red="66" green="70" blue="82" filter_source="hueshift"/>
+	<color name="local-text-fore" red="50" green="50" blue="50" />
+	<color name="local-history-fore" red="100" green="100" blue="100" />
+
+	<color name="url-color" red="79" green="129" blue="189" filter_source="hueshift"/>
+	<color name="url-fore" red="79" green="129" blue="189" filter_source="hueshift"/>
+	<color name="url-line" red="79" green="129" blue="189" filter_source="hueshift"/>
+
+	<color name="system-fore" red="66" green="70" blue="82" filter_source="hueshift"/>
+	<color name="reltime-fore" red="66" green="70" blue="82" filter_source="hueshift"/>
+	<color name="abstime-fore" red="66" green="70" blue="82" filter_source="hueshift"/>
+	<color name="typing-fore" red="66" green="70" blue="82" filter_source="hueshift"/>
+
+	<!-- CURSOR SETTINGS -->
+	<cursor name="blur" type="ibeam"/>
+	<cursor name="focus" type="ibeam"/>
+
+	<!-- ITEM VERTICAL SPACING -->
+	<settings name="SameUserSpacingY" value="6"/> <!-- Spacing between Local and Local, or Remote and Remote -->
+	<settings name="DiffUserSpacingY" value="6"/> <!-- Spacing between Local and Remote -->
+	<settings name="SystemSpacingY" value="0"/> <!-- Spacing between the rest -->
+	<settings name="left-margin" value="5"/> 
+	<settings name="bottom-margin" value="5"/> 
+	<settings name="typing-item" value="1"/> 
+
+	<!-- ICONS -->
+
+	<icon name="go" state="normal"/>
+	<icon name="more" state="normal"/>
+
+	<icon name="go" state="over"/>
+	<icon name="more" state="over"/>
+
+	<icon name="go" state="push"/>
+	<icon name="more" state="push"/>
+
+	<icon type="local">&icoLocal-Medium;</icon>
+	<icon type="remote">&icoRemote-Medium;</icon>
+
+
+	<icon name="all" type="icon-background">
+		<source name="skin-asset" left="0" top="115" right="36" bottom="151"/> <!-- no theme -->
+	</icon>
+
+	<message-item name="remote" defaulty="%this.text.desired_height%+14"> 
+		<background stretch="1">
+			<source name="skin-asset" left="52" top="113" right="112" bottom="163"/> <!-- theme -->
+			<slice left="67" top="121" right="102" bottom="151"/>
+			<rect>
+				<left num="4" width="0"/>
+				<right num="25+%this.text.desired_width%+5" width="0"/>
+				<bottom num="0" height="1"/>
+			</rect>
+		</background>
+
+		<icontrol name="text">
+			<rect>
+				<left num="20" width="0"/> 
+				<right num="20 + %this.abstime.desired_width% + 10" width="1"/>
+				<bottom num="8" height="1"/>
+			</rect>
+			<settings name="text-wordwrap" value="1"/>
+			<settings name="line-spacing" value="0"/>
+			<settings name="text-alignment" value="left"/>
+		</icontrol>
+
+		<icontrol name="abstime">
+			<rect>
+				<left num="8 + %this.abstime.desired_width%" width="1"/>
+				<right num="5" width="1"/>
+				<top num="0" height="0"/>
+				<bottom num="15" height="0"/>
+			</rect>
+			<settings name="text-wordwrap" value="0"/>
+			<settings name="line-spacing" value="0"/>
+			<settings name="text-alignment" value="right"/>
+			<settings name="text-vertical-alignment" value="top"/>
+		</icontrol>
+
+		<icontrol name="separator">
+			<rect>
+				<left num="15" width="0"/>
+				<right num="25 + %this.text.desired_width%" width="0"/>
+			</rect>
+		</icontrol>
+
+	</message-item>
+
+	<message-item name="local" defaulty="%this.text.desired_height%+14">
+		<background stretch="1">
+			<source name="skin-asset" left="112" top="113" right="171" bottom="163"/> <!-- no theme -->
+			<slice left="121" top="121" right="156" bottom="150"/>
+			<rect>
+				<left num="25+%this.text.desired_width%+5" width="1"/>
+				<right num="4" width="1"/>
+				<bottom num="0" height="1"/>
+			</rect>
+		</background>
+
+		<icontrol name="text">
+			<rect>
+				<left num="20 + %this.abstime.desired_width% + 5" width="0"/>
+				<right num="20" width="1"/>
+				<bottom num="8" height="1"/>
+			</rect>
+			<settings name="text-wordwrap" value="1"/>
+			<settings name="line-spacing" value="0"/>
+			<settings name="text-alignment" value="right"/>
+		</icontrol>
+
+		<icontrol name="abstime">
+			<rect>
+				<left num="9" width="0"/>
+				<right num="9 + %this.abstime.desired_width%" width="0"/>
+				<top num="0" height="0"/>
+				<bottom num="15" height="0"/>
+			</rect>
+			<settings name="text-wordwrap" value="0"/>
+			<settings name="line-spacing" value="0"/>
+			<settings name="text-alignment" value="left"/>
+			<settings name="text-vertical-alignment" value="top"/>
+		</icontrol>
+
+		<icontrol name="separator">
+			<rect>
+				<left num="25 + %this.text.desired_width%" width="1"/>
+				<right num="15" width="1"/>
+			</rect>
+		</icontrol>
+	</message-item>
+
+	<message-item name="remote-latest" defaulty="26+max(15,%this.text.desired_height%+%this.typing%*22-(!%this.text.hasText%*7))"> 
+		<background stretch="1" visible="%this.text.desired_height%">
+			<source name="skin-asset" left="52" top="113" right="112" bottom="163"/> <!-- theme -->
+			<slice left="67" top="121" right="102" bottom="151"/>
+			<rect>
+				<left num="44" width="0"/>
+				<right num="70+%this.text.desired_width%" width="0"/>
+				<bottom num="11+(%this.typing%*22)" height="1"/> 
+			</rect>
+		</background>
+
+		<background stretch="1" visible="%this.typing%">
+			<source name="bitmap-typing" left="0" top="18" right="32" bottom="36"/>
+			<slice left="0" top="18" right="32" bottom="36"/>
+			<rect>
+				<left num="47" width="0"/>
+				<top num="27" height="1"/>
+				<right num="79" width="0"/>
+				<bottom num="11" height="1"/>
+			</rect>
+		</background>
+
+		<icontrol name="icon-background">
+			<rect>
+				<left num="10" width="0"/>
+				<top num="41" height="1"/>
+				<right num="46" width="0"/>
+				<bottom num="5" height="1"/>
+			</rect>
+		</icontrol>
+
+		<icontrol name="icon">
+			<rect>
+				<left num="12" width="0"/>
+				<top num="39" height="1"/>
+				<right num="44" width="0"/>
+				<bottom num="7" height="1"/>
+			</rect>
+		</icontrol>
+
+		<icontrol name="text">
+			<rect>
+				<left num="60" width="0"/> 
+				<right num="20 + %this.abstime.desired_width% + 5" width="1"/>
+				<bottom num="19+(%this.typing%*22)" height="1"/> 
+			</rect>
+			<settings name="text-wordwrap" value="1"/>
+			<settings name="line-spacing" value="0"/>
+			<settings name="text-alignment" value="left"/>
+		</icontrol>
+
+		<icontrol name="abstime">
+			<rect>
+				<left num="5 + %this.abstime.desired_width%" width="1"/>
+				<right num="5" width="1"/>
+				<top num="2" height="0"/>
+				<bottom num="17" height="0"/>
+			</rect>
+			<settings name="text-wordwrap" value="0"/>
+			<settings name="line-spacing" value="0"/>
+			<settings name="text-alignment" value="right"/>
+			<settings name="text-vertical-alignment" value="top"/>
+		</icontrol>
+
+		<icontrol name="separator">
+			<rect>
+				<left num="55" width="0"/>
+				<right num="65+%this.text.desired_width%" width="0"/>
+			</rect>
+		</icontrol>
+	</message-item>
+
+	<message-item name="local-latest" defaulty="26+max(15,%this.text.desired_height%+%this.typing%*22-(!%this.text.hasText%*7))"> 
+		<background stretch="1" visible="%this.text.desired_height%">
+			<source name="skin-asset" left="112" top="113" right="171" bottom="163"/> <!-- no theme -->
+			<slice left="121" top="121" right="156" bottom="150"/>
+			<rect>
+				<left num="%this.text.desired_width%+69" width="1"/>
+				<right num="43" width="1"/>
+				<bottom num="11+%this.typing%*22" height="1"/>
+			</rect>
+		</background>
+
+		<background stretch="1" visible="%this.typing%">
+			<source name="bitmap-typing" left="0" top="0" right="32" bottom="18"/>
+			<slice left="0" top="0" right="32" bottom="18"/>
+			<rect>
+				<left num="78" width="1"/>
+				<top num="27" height="1"/>
+				<right num="46" width="1"/>
+				<bottom num="11" height="1"/>
+			</rect>
+		</background>
+
+		<icontrol name="icon-background">
+			<rect>
+				<left num="45" width="1"/>
+				<top num="41" height="1"/>
+				<right num="9" width="1"/>
+				<bottom num="5" height="1"/>
+			</rect>
+		</icontrol>
+
+		<icontrol name="icon">
+			<rect>
+				<left num="43" width="1"/>
+				<top num="39" height="1"/>
+				<right num="11" width="1"/>
+				<bottom num="7" height="1"/>
+			</rect>
+		</icontrol>
+
+		<icontrol name="text">
+			<rect>
+				<left num="20 + %this.abstime.desired_width% + 5" width="0"/>
+				<right num="59" width="1"/>
+				<bottom num="19+%this.typing%*22" height="1"/>
+			</rect>
+			<settings name="text-wordwrap" value="1"/>
+			<settings name="line-spacing" value="0"/>
+			<settings name="text-alignment" value="right"/>
+		</icontrol>
+
+		<icontrol name="abstime">
+			<rect>
+				<left num="9" width="0"/>
+				<right num="9 + %this.abstime.desired_width%" width="0"/>
+				<top num="2" height="0"/>
+				<bottom num="17" height="0"/>
+			</rect>
+			<settings name="text-wordwrap" value="0"/>
+			<settings name="line-spacing" value="0"/>
+			<settings name="text-alignment" value="left"/>
+			<settings name="text-vertical-alignment" value="top"/>
+		</icontrol>
+
+		<icontrol name="separator">
+			<rect>
+				<left num="65+%this.text.desired_width%" width="1"/>
+				<right num="55" width="1"/>
+			</rect>
+		</icontrol>
+	</message-item>
+
+	<message-item name="default" defaulty="%this.text.desired_height%">
+		<icontrol name="text">
+			<rect>
+				<left num="15" width="0"/>
+				<right num="15" width="1"/>
+				<top num="0" height="0"/>
+			</rect>
+			<settings name="text-wordwrap" value="1"/>
+			<settings name="text-alignment" value="center"/>
+			<settings name="text-vertical-alignment" value="top"/>
+		</icontrol>
+	</message-item>
+
+	<message-item name="system" defaulty="%this.text.desired_height%">
+		<icontrol name="text">
+			<rect>
+				<left num="15" width="0"/>
+				<right num="15" width="1"/>
+				<top num="0" height="0"/>
+			</rect>
+			<settings name="text-wordwrap" value="1"/>
+			<settings name="text-alignment" value="center"/>
+			<settings name="text-vertical-alignment" value="top"/>
+		</icontrol>
+	</message-item>
+
+	<message-item name="local-separator" defaulty="7">
+		<background stretch="1">
+			<source name="skin-asset" left="52" top="165" right="171" bottom="167"/> <!-- no theme -->
+			<rect>
+				<left num="0" width="0"/>
+				<top num="2" height="0"/>
+				<right num="0" width="1"/>
+				<bottom num="4" height="0"/>
+			</rect>
+		</background>
+	</message-item>
+
+	<message-item name="remote-separator" defaulty="7">
+		<background stretch="1">
+			<source name="skin-asset" left="52" top="165" right="171" bottom="167"/> <!-- no theme -->
+			<rect>
+				<left num="0" width="0"/>
+				<top num="2" height="0"/>
+				<right num="0" width="1"/>
+				<bottom num="4" height="0"/>
+			</rect>
+		</background>
+	</message-item>
+
+	<message-item name="image">
+		<background stretch="1">
+			<source name="av-asset" left="101" top="22" right="157" bottom="77"/> <!-- theme -->
+			<slice left="110" top="28" right="148" bottom="66"/>
+		</background>
+		<background visible="%this.error%" zorder="1">
+			<source name="error" left="0" top="0" right="16" bottom="16"/> 
+			<rect centered="1">
+				<left num="9"/>
+				<top num="6"/>
+				<right num="9"/>
+				<bottom num="11"/>
+			</rect>
+		</background>
+		<background visible="%this.loading%" zorder="1">
+			<source name="loading" left="0" top="0" right="32" bottom="32"/> 
+			<rect centered="1">
+				<left num="9"/>
+				<top num="6"/>
+				<right num="9"/>
+				<bottom num="11"/>
+			</rect>
+		</background>
+		<icontrol name="image">
+			<rect>
+				<left num="9"/>
+				<top num="6"/>
+				<right num="9"/>
+				<bottom num="11"/>
+			</rect>
+		</icontrol>
+	</message-item>
+
+	<message-item name="video">
+		<background stretch="0">
+			<source name="av-asset" left="101" top="78" right="157" bottom="133"/> <!-- theme -->
+			<slice left="110" top="84" right="148" bottom="122"/>
+		</background>
+		<background visible="%this.error%" zorder="1">
+			<source name="error" left="0" top="0" right="16" bottom="16"/> 
+			<rect centered="1">
+				<left num="4"/>
+				<top num="6"/>
+				<right num="4"/>
+				<bottom num="11"/>
+			</rect>
+		</background>
+		<background visible="%this.loading%" zorder="1">
+			<source name="loading" left="0" top="0" right="32" bottom="32"/> 
+			<rect centered="1">
+				<left num="4"/>
+				<top num="6"/>
+				<right num="4"/>
+				<bottom num="11"/>
+			</rect>
+		</background>
+		<icontrol name="image">
+			<rect>
+				<left num="4"/>
+				<top num="6"/>
+				<right num="4"/>
+				<bottom num="11"/>
+			</rect>
+		</icontrol>
+		<icontrol name="play" source="play-button">
+			<rect centered="1">
+				<left num="0"/>
+				<top num="0"/>
+				<right num="37" width="0"/>
+				<bottom num="37" height="0"/>
+			</rect>
+		</icontrol>
+	</message-item>
+</control>
+
+<!-- Message Edit -->
+<control name="edit-console" type="chat-edit">
+	<font source="segoeui" type="Segoe UI" size="8"/>
+	<color name="default-fore" red="50" green="50" blue="50"/> 
+	<color name="normal-fore" red="50" green="50" blue="50"/> 
+	<color name="select-fore" red="255" green="255" blue="255" />
+	<color name="select-back" red="51" green="153" blue="255" />
+	<color name="url-fore" red="79" green="129" blue="189" filter_source="hueshift"/>
+	<message-item name="image">
+		<background stretch="1">
+			<source name="av-asset" left="101" top="22" right="157" bottom="77"/> <!-- theme -->
+			<slice left="110" top="28" right="148" bottom="66"/>
+		</background>
+		<background visible="%this.error%" zorder="1">
+			<source name="error" left="0" top="0" right="16" bottom="16"/> 
+			<rect centered="1">
+				<left num="9"/>
+				<top num="6"/>
+				<right num="9"/>
+				<bottom num="11"/>
+			</rect>
+		</background>
+		<background visible="%this.loading%" zorder="1">
+			<source name="loading" left="0" top="0" right="32" bottom="32"/> 
+			<rect centered="1">
+				<left num="9"/>
+				<top num="6"/>
+				<right num="9"/>
+				<bottom num="11"/>
+			</rect>
+		</background>
+		<icontrol name="image">
+			<rect>
+				<left num="9"/>
+				<top num="6"/>
+				<right num="9"/>
+				<bottom num="11"/>
+			</rect>
+		</icontrol>
+	</message-item>
+
+	<message-item name="video">
+		<background stretch="0">
+			<source name="av-asset" left="101" top="78" right="157" bottom="133"/> <!-- theme -->
+			<slice left="110" top="84" right="148" bottom="122"/>
+		</background>
+		<background visible="%this.error%" zorder="1">
+			<source name="error" left="0" top="0" right="16" bottom="16"/> 
+			<rect centered="1">
+				<left num="4"/>
+				<top num="6"/>
+				<right num="4"/>
+				<bottom num="11"/>
+			</rect>
+		</background>
+		<background visible="%this.loading%" zorder="1">
+			<source name="loading" left="0" top="0" right="32" bottom="32"/> 
+			<rect centered="1">
+				<left num="4"/>
+				<top num="6"/>
+				<right num="4"/>
+				<bottom num="11"/>
+			</rect>
+		</background>
+		<icontrol name="image">
+			<rect>
+				<left num="4"/>
+				<top num="6"/>
+				<right num="4"/>
+				<bottom num="11"/>
+			</rect>
+		</icontrol>
+		<icontrol name="play" source="play-button">
+			<rect centered="1">
+				<left num="0"/>
+				<top num="0"/>
+				<right num="37" width="0"/>
+				<bottom num="37" height="0"/>
+			</rect>
+		</icontrol>
+	</message-item>
+</control>
+
+<control name="play-button" type="button">
+	<background name="flat">
+		<source name="av-asset" left="104" top="134" right="141" bottom="171"/>
+	</background>
+	<background name="over">
+		<source name="av-asset" left="143" top="134" right="181" bottom="171"/>
+	</background>
+	<background name="push">
+		<source name="av-asset" left="104" top="134" right="141" bottom="171"/>
+	</background>
+</control>
+
+<control name="fontstylesbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="fontstyle-switcher" name="fontstyle-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- Button Arrow -->
+	<icontrol source="uparrow" name="arrow" visible="1">
+		<rect>
+			<left num="15-(%this.push%)" width="1"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="2-(%this.push%)" width="1"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+	<settings name="menu-source" value="stylemenu"/>
+	<settings name="menu-direction" value="up"/> 
+</control>
+
+<control name="fontstyle-switcher" type="switcher">
+	<background name="flat">
+		&icoEditBar-Style;
+	</background>
+	<background name="disabled">
+		&icoEditBar-Style-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="insertbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="insert-switcher" name="insert-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- Button Arrow -->
+	<icontrol source="uparrow" name="arrow" visible="1">
+		<rect>
+			<left num="15-(%this.push%)" width="1"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="2-(%this.push%)" width="1"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="insert-switcher" type="switcher">
+	<background name="flat">
+		&icoEditBar-Insert;
+	</background>
+	<background name="disabled">
+		&icoEditBar-Insert-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="insertbutton-topic" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Insert"/>
+</control>
+
+<control name="emoticonbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="emoticon-switcher" name="emoticon-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- Button Arrow -->
+	<icontrol source="uparrow" name="arrow" visible="1">
+		<rect>
+			<left num="15-(%this.push%)" width="1"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="2-(%this.push%)" width="1"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+	<settings name="menu-direction" value="up"/>
+</control>
+
+<control name="emoticon-switcher" type="switcher">
+	<background name="flat">
+		&icoEditBar-Emoticon;
+	</background>
+	<background name="disabled">
+		&icoEditBar-Emoticon-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="buzzbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="buzz-switcher" name="emoticon-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="buzz-switcher" type="switcher">
+	<background name="flat">
+		&icoEditBar-Buzz;
+	</background>
+	<background name="disabled">
+		&icoEditBar-Buzz-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="drawbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="draw-switcher" name="insert-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="draw-switcher" type="switcher">
+	<background name="flat">
+		<source name="general16-asset-notheme" left="0" top="96" right="16" bottom="112"/> <!-- no theme -->
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<!--  -->
+<control name="toolbar-separator" type="button">
+	<background name="flat">
+		<source name="bmpTrillianLiveAssets" left="204" top="0" right="209" bottom="20"/> <!-- theme -->
+	</background>
+	<background name="over">
+		<source name="bmpTrillianLiveAssets" left="204" top="0" right="209" bottom="20"/> <!-- theme -->
+	</background>
+	<background name="push">
+		<source name="bmpTrillianLiveAssets" left="204" top="0" right="209" bottom="20"/> <!-- theme -->
+	</background>
+</control>
+
+<control name="pencilbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="pencil-switcher" name="emoticon-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="pencil-switcher" type="switcher">
+	<background name="flat">
+		&icoDraw-Pencil;
+	</background>
+	<background name="disabled">
+		&icoDraw-Pencil-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="drawbar-arrowup" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="uparrow" name="arrow" visible="1">
+		<rect>
+			<left num="15-(%this.push%)" width="1"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="2-(%this.push%)" width="1"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="highlighterbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="highlighter-switcher" name="highlighter-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="highlighter-switcher" type="switcher">
+	<background name="flat">
+		&icoDraw-Highlighter;
+	</background>
+	<background name="disabled">
+		&icoDraw-Highlighter-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="eraserbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="eraser-switcher" name="highlighter-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="eraser-switcher" type="switcher">
+	<background name="flat">
+		&icoDraw-Eraser;
+	</background>
+	<background name="disabled">
+		&icoDraw-Eraser-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="colorbutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="color-switcher" name="color-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- Button Arrow -->
+	<icontrol source="uparrow" name="arrow" visible="1">
+		<rect>
+			<left num="15-(%this.push%)" width="1"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="2-(%this.push%)" width="1"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+	<settings name="menu-direction" value="up"/>
+</control>
+
+<control name="color-switcher" type="switcher">
+	<background name="flat">
+		&icoDraw-Color;
+	</background>
+	<background name="disabled">
+		&icoDraw-Color-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="wipebutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="wipe-switcher" name="emoticon-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="wipe-switcher" type="switcher">
+	<background name="flat">
+		&icoDraw-Wipe;
+	</background>
+	<background name="disabled">
+		&icoDraw-Wipe-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="drawbuttonoff" type="resizeable-button">
+	<!-- Flat -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="flat">
+		<source name="buttons-asset" left="0" top="120" right="55" bottom="144"/> <!-- theme -->
+		<slice left="3" top="132" right="52" bottom="139"/>
+	</background>
+
+	<!-- Hover -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="over">
+		<source name="buttons-asset" left="0" top="96" right="55" bottom="120"/> <!-- theme -->
+		<slice left="3" top="108" right="52" bottom="115"/>
+	</background>
+
+	<!-- Push -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="push">
+		<source name="buttons-asset" left="0" top="120" right="55" bottom="144"/> <!-- theme -->
+		<slice left="3" top="132" right="52" bottom="139"/>
+	</background>
+
+	<icontrol source="draw-switcher" name="insert-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="style-menu-bar" type="framebar">
+	<include-frame source="editbar-fontforecolor"/>
+	<include-frame source="editbar-fontbackcolor"/>
+	<include-frame source="editbar-fontsize"/>
+	<include-frame source="editbar-bolditalicunderline"/>
+</control>
+
+<control name="swcEditBar-FontForeColor" type="switcher">
+	<background name="flat">
+		&icoEditBar-FontForeColor;
+	</background>
+	<background name="disabled">
+		&icoEditBar-FontForeColor-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="btnEditBar-FontForeColor" type="resizeable-button">
+	&standardbutton-noflat;
+	<icontrol source="swcEditBar-FontForeColor" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="4" width="1"/>
+			<top num="4" height="0"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="swcEditBar-FontBackColor" type="switcher">
+	<background name="flat">
+		&icoEditBar-FontBackColor;
+	</background><background name="disabled">
+		&icoEditBar-FontBackColor-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="btnEditBar-FontBackColor" type="resizeable-button">
+	&standardbutton-noflat;
+	<icontrol source="swcEditBar-FontBackColor" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="4" width="1"/>
+			<top num="4" height="0"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="swcEditBar-FontSmallerSize" type="switcher">
+	<background name="flat">
+		&icoEditBar-FontSmallerSize;
+	</background>
+	<background name="disabled">
+		&icoEditBar-FontSmallerSize-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="btnEditBar-FontSmallerSize" type="resizeable-button">
+	&standardbutton-noflat;
+	<icontrol source="swcEditBar-FontSmallerSize" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="4" width="1"/>
+			<top num="4" height="0"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="swcEditBar-FontNormalSize" type="switcher">
+	<background name="flat">
+		&icoEditBar-FontNormalSize;
+	</background>
+	<background name="disabled">
+		&icoEditBar-FontNormalSize-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="btnEditBar-FontNormalSize" type="resizeable-button">
+	&standardbutton-noflat;
+	<icontrol source="swcEditBar-FontNormalSize" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="4" width="1"/>
+			<top num="4" height="0"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="swcEditBar-FontLargerSize" type="switcher">
+	<background name="flat">
+		&icoEditBar-FontLargerSize;
+	</background>
+	<background name="disabled">
+		&icoEditBar-FontLargerSize-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="btnEditBar-FontLargerSize" type="resizeable-button">
+	&standardbutton-noflat;
+	<icontrol source="swcEditBar-FontLargerSize" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="4" width="1"/>
+			<top num="4" height="0"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="swcEditBar-FontBold" type="switcher">
+	<background name="flat">
+		&icoEditBar-FontBold;
+	</background>
+	<background name="disabled">
+		&icoEditBar-FontBold-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="btnEditBar-FontBold" type="resizeable-button">
+	&standardbutton-noflat;
+	<icontrol source="swcEditBar-FontBold" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="20" width="0"/>
+			<top num="4" height="0"/>
+			<bottom num="20" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="swcEditBar-FontItalics" type="switcher">
+	<background name="flat">
+		&icoEditBar-FontItalics;
+	</background>
+	<background name="disabled">
+		&icoEditBar-FontItalics-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="btnEditBar-FontItalics" type="resizeable-button">
+	&standardbutton-noflat;
+	<icontrol source="swcEditBar-FontItalics" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="20" width="0"/>
+			<top num="4" height="0"/>
+			<bottom num="20" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="swcEditBar-FontUnderline" type="switcher">
+	<background name="flat">
+		&icoEditBar-FontUnderline;
+	</background>
+	<background name="disabled">
+		&icoEditBar-FontUnderline-Disabled;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="btnEditBar-FontUnderline" type="resizeable-button">
+	&standardbutton-noflat;
+	<icontrol source="swcEditBar-FontUnderline" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="20" width="0"/>
+			<top num="4" height="0"/>
+			<bottom num="20" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="mutebutton" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="mute-switcher" name="icon">
+		<rect>
+			<left num="6+(%this.push%)" width="0"/>
+			<top num="4+(%this.push%)" height="0"/>
+			<right num="22+(%this.push%)" width="0"/>
+			<bottom num="20+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="mute-switcher" type="switcher">
+	<background name="flat">
+		<source name="general16-asset-notheme" left="16" top="128" right="32" bottom="144"/> <!-- no theme -->
+	</background>
+	<background name="over">
+		<source name="general16-asset-notheme" left="16" top="128" right="32" bottom="144"/> <!-- no theme -->
+	</background>
+	<background name="push">
+		<source name="general16-asset-notheme" left="16" top="144" right="32" bottom="160"/> <!-- no theme -->
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="volume-level-progress" type="progress">  
+	<background name="background">
+		<source name="av-asset" left="101" top="0" right="156" bottom="10"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="0" width="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+	<background name="0">
+		<source name="av-asset" left="101" top="0" right="156" bottom="10"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="0" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+	<background name="7">
+		<source name="av-asset" left="101" top="10" right="104" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="3" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+	<background name="14">
+		<source name="av-asset" left="101" top="10" right="108" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="7" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>
+	<background name="21">
+		<source name="av-asset" left="101" top="10" right="112" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="11" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>
+	<background name="28">
+		<source name="av-asset" left="101" top="10" right="116" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="15" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+	<background name="35">
+		<source name="av-asset" left="101" top="10" right="120" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="19" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+	<background name="42">
+		<source name="av-asset" left="101" top="10" right="124" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="23" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>
+	<background name="49">
+		<source name="av-asset" left="101" top="10" right="128" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="27" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>
+	<background name="56">
+		<source name="av-asset" left="101" top="10" right="132" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="31" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+	<background name="63">
+		<source name="av-asset" left="101" top="10" right="136" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="35" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+	<background name="70">
+		<source name="av-asset" left="101" top="10" right="140" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="39" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+	<background name="77">
+		<source name="av-asset" left="101" top="10" right="144" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="43" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+	<background name="84">
+		<source name="av-asset" left="101" top="10" right="148" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="47" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+	<background name="91">
+		<source name="av-asset" left="101" top="10" right="152" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="51" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>
+	<background name="100">
+		<source name="av-asset" left="101" top="10" right="156" bottom="20"/> <!-- no theme -->
+		<rect>
+			<left num="0" width="1"/>
+			<top num="0" height="0"/>
+			<right num="54" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>  
+</control>
+
+<control name="volume-slider" type="slider">
+	<background name="flat">
+		<source name="general16-asset" left="64" top="16" right="72" bottom="30"/>
+	</background>
+	<background name="over">
+		<source name="general16-asset" left="72" top="16" right="80" bottom="30"/>
+	</background>
+	<background name="push">
+		<source name="general16-asset" left="72" top="16" right="80" bottom="30"/>
+	</background>
+	<settings name="alignment" value="horizontal"/>
+</control>
+
+<control name="audio-disconnect-button" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="audio-disconnect-button-switcher" name="audio-disconnect-button-switcher">
+		<rect>
+			<left num="2" width="0"/>
+			<top num="2" height="0"/>
+			<right num="18" width="0"/>
+			<bottom num="18" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- Button Text 
+	<icontrol source="endcallbuttontext" name="text">
+		<rect>
+			<left num="25" width="0"/>
+			<right num="1" width="1"/>
+		</rect>
+	</icontrol>-->
+</control>
+
+<control name="endcallbuttontext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="over-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="push-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<color name="disabled-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="End Call"/>
+</control>
+
+<control name="audio-disconnect-button-switcher" type="switcher">
+	<background name="flat">
+		<source name="general16-asset-notheme" left="32" top="128" right="48" bottom="144"/>
+		<slice left="32" top="128" right="48" bottom="144"/>
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="vol-button" type="button">
+	<background name="flat"><source name="general16-asset-notheme" left="32" top="112" right="48" bottom="128"/></background>
+	<background name="over"><source name="general16-asset-notheme" left="32" top="112" right="48" bottom="128"/></background>
+	<background name="push"><source name="bmpTrillianLiveAssets-notheme" left="104" top="69" right="120" bottom="85"/></background>
+</control>
+
+<control name="mic-button" type="button">
+	<background name="flat"><source name="general16-asset-notheme" left="16" top="128" right="32" bottom="144"/></background>
+	<background name="over"><source name="general16-asset-notheme" left="16" top="128" right="32" bottom="144"/></background>
+	<background name="push"><source name="general16-asset-notheme" left="16" top="144" right="32" bottom="160"/></background>
+</control>
+
+<control name="audio-hold-button" type="resizeable-button">
+	&hover-button-art;
+
+	<icontrol source="audio-hold-button-switcher" name="mic-button-switcher">
+		<rect>
+			<left num="2+(%this.push%)" width="0"/>
+			<top num="2+(%this.push%)" height="0"/>
+			<right num="18+(%this.push%)" width="0"/>
+			<bottom num="18+(%this.push%)" height="0"/>
+		</rect>
+	</icontrol>
+
+</control>
+
+<control name="audio-hold-button-switcher" type="switcher">
+	<background name="flat">
+		<source name="general16-asset-notheme" left="48" top="112" right="64" bottom="128"/>
+		<slice left="48" top="112" right="64" bottom="128"/>
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="alertbar" type="framebar">
+	<include-frame source="user-offline" visible="!%message.conference%*(!%message.auth%*%message.status.offline%)||(!%message.edit.capable%)"/>
+	<include-frame source="stranger-danger" visible="!%message.conference%*(!%message.contact%)*(!%message.auth%)*(!%privmsg.phase.strangerhide%)"/> 
+	<include-frame source="add-accepted" visible="!%message.conference%*%message.auth.accepted%"/> 
+	<include-frame source="addrequest" visible="!%message.conference%*%message.auth%*%message.edit.capable%"/> 
+	<include-frame source="video-init" visible="%message.video.acceptdeny%"/> 
+	<include-frame source="audio-init" visible="%message.audio.acceptdeny%"/>
+	<include-frame source="audio-status" visible="%message.audio.status%"/>
+	<include-frame source="video-status" visible="%message.video.status%"/>
+	<settings name="alignment" value="top"/>
+	<settings name="overflow" value="scroll"/>
+	<settings name="vertical" value="1"/>
+	<settings name="nowrap" value="1"/>
+</control>
+
+<control name="audio-init-tooltip" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<forecolor red="0" green="0" blue="0"	/>
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="video-init-tooltip" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<forecolor red="0" green="0" blue="0"	/>
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="status-tooltip" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="9"/>
+	<forecolor red="0" green="0" blue="0" />
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="top"/>
+</control>
+
+<control name="status-tooltip-center" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="9"/>
+	<forecolor red="0" green="0" blue="0" />
+	<settings name="alignment" value="left"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="troublebutton" type="resizeable-button">
+	&standardbutton;
+
+	<icontrol source="troubletext" name="text">
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="0" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="troubletext" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" />
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="strangertext" type="tooltip">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" />
+	<settings name="alignment" value="left"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="&word-lbl-Cordonata:PM:Status:Stranger:Warning;"/>
+</control>
+
+<control name="stranger-close-button" type="button">
+	<background name="flat">
+		<source name="bmpTrillianLiveAssets-asset" left="164" top="218" right="181" bottom="233"/> <!-- no theme -->
+	</background>
+	<background name="push">
+		<source name="bmpTrillianLiveAssets-asset" left="181" top="218" right="198" bottom="233"/> <!-- no theme -->
+	</background>
+	<background name="over">
+		<source name="bmpTrillianLiveAssets-asset" left="198" top="218" right="215" bottom="233"/> <!-- no theme -->
+	</background>
+
+	<event name="onClick">
+		<action name="setVariable" variable="%privmsg.phase.strangerhide%" value="1"/>
+	</event>
+</control>
+
+<control name="troublebutton-close" type="button">
+	<background name="flat">
+		<source name="bmpTrillianLiveAssets-asset" left="164" top="218" right="181" bottom="233"/> <!-- no theme -->
+	</background>
+	<background name="push">
+		<source name="bmpTrillianLiveAssets-asset" left="181" top="218" right="198" bottom="233"/> <!-- no theme -->
+	</background>
+	<background name="over">
+		<source name="bmpTrillianLiveAssets-asset" left="198" top="218" right="215" bottom="233"/> <!-- no theme -->
+	</background>
+</control>
+
+<control name="accept-deny-ignore-framebar" type="framebar">
+	<include-frame source="accept-button-frame"/>
+	<include-frame source="spacer-frame"/>
+	<include-frame source="deny-button-frame"/>
+	<include-frame source="spacer-frame"/>
+	<include-frame source="ignore-button-frame"/>
+	<settings name="alignment" value="right"/>
+</control>
+
+<control name="accept-button" type="resizeable-button">
+	&defaultbutton;
+	<icontrol source="accept-switcher" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="20" width="0"/>
+			<top num="4" height="0"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="accept-text" name="text">
+		<rect>
+			<left num="24" width="0"/>
+			<right num="4" width="1"/>
+			<top num="0" height="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+	<event name="onClick">
+		<action name="audio_initiate"/>
+	</event>
+</control>
+
+<control name="deny-button" type="resizeable-button">
+	&standardbutton;
+	<icontrol source="deny-switcher" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="20" width="0"/>
+			<top num="4" height="0"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="deny-text" name="text">
+		<rect>
+			<left num="24" width="0"/>
+			<right num="4" width="1"/>
+			<top num="0" height="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="ignore-button" type="resizeable-button">
+	&standardbutton;
+
+	<icontrol source="ignore-switcher" name="icon">
+		<rect>
+			<left num="4" width="0"/>
+			<right num="20" width="0"/>
+			<top num="4" height="0"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="ignore-text" name="text">
+		<rect>
+			<left num="24" width="0"/>
+			<right num="4" width="1"/>
+			<top num="0" height="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+</control>
+
+<control name="accept-switcher" type="switcher">
+	<background name="flat">
+		&icoAccept;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="deny-switcher" type="switcher">
+	<background name="flat">
+		&icoDeny;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+<control name="ignore-switcher" type="switcher">
+	<background name="flat">
+		&icoIgnore;
+	</background>
+	<settings name="default" value="flat"/>
+</control>
+
+<control name="accept-text" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" />
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Approve"/>
+</control>
+
+<control name="deny-text" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" />
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Deny"/>
+</control>
+
+<control name="ignore-text" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" />
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Ignore"/>
+</control>
+
+<control name="audio-init-framebar" type="framebar">
+	<include-frame source="audio-init-accept-frame"/>
+	<include-frame source="spacer-frame"/>
+	<include-frame source="audio-init-deny-frame"/>
+	<settings name="alignment" value="center"/>
+</control>
+
+<control name="video-init-framebar" type="framebar">
+	<include-frame source="video-init-accept-frame"/>
+	<include-frame source="spacer-frame"/>
+	<include-frame source="video-init-deny-frame"/>
+	<settings name="alignment" value="center"/>
+</control>
+
+<control name="audio-init-accept-label" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" />
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Accept"/>
+</control>
+
+<control name="audio-init-accept-button" type="resizeable-button">
+	&defaultbutton;
+	<icontrol source="audio-init-accept-label" name="text"/>
+</control>
+
+<control name="audio-init-deny-label" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" />
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Deny"/>
+</control>
+
+<control name="audio-init-deny-button" type="resizeable-button">
+	&standardbutton;
+	
+	<settings name="transparent" value="yes"/>
+	<icontrol source="audio-init-deny-label" name="text"/>
+
+	<event name="onClick">
+		<action name="setVariable" variable="%privmsg.phase.audio%" value="0"/>
+	</event>
+</control>
+
+<control name="video-init-accept-label" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" />
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Accept"/>
+</control>
+
+<control name="video-init-accept-button" type="resizeable-button">
+	&defaultbutton;
+	<icontrol source="video-init-accept-label" name="text"/>
+</control>
+
+<control name="video-init-deny-label" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" />
+	<settings name="alignment" value="center"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+	<settings name="default-text" value="Deny"/>
+</control>
+
+<control name="video-init-deny-button" type="resizeable-button">
+	&standardbutton;
+	
+	<settings name="transparent" value="yes"/>
+	<icontrol source="video-init-deny-label" name="text"/>
+
+	<event name="onClick">
+		<action name="setVariable" variable="%privmsg.phase.Video%" value="0"/>
+	</event>
+</control>
+
+<control name="message-infolist" type="framebar">
+	<include-frame source="message-infolist-header" template="header"/>
+	<include-frame source="message-infolist-typevalue" template="type_value"/>
+	<settings name="alignment" value="center"/>
+	<settings name="vertical-alignment" value="top"/>
+	<settings name="overflow" value="scroll"/>
+	<settings name="vertical" value="1"/>
+</control>
+
+<control name="message-infodisplay" type="display">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="0" green="0" blue="0" />
+</control>
+
+<control name="twitter-infolist-framebar" type="framebar">
+	<include-frame source="infolist-header" template="header"/>
+	<include-frame source="twitter-infolist-typevalue" template="type_value"/>
+	<include-frame source="infolist-longtypevalue" template="long_type_value"/>
+
+	<settings name="vertical" value="1"/>
+	<settings name="alignment" value="top"/>
+	<settings name="overflow" value="scroll"/>
+</control>
+
+<control name="profile-name" type="topic">
+	<font source="segoeui" type="Segoe UI" size="10" bold="0" italic="0" />
+	<forecolor red="0" green="0" blue="0" />
+	<settings name="auto-scroll" value="no"/>
+	<settings name="alignment" value="center"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>
+
+<control name="audio-timer-topic" type="topic">
+	<font source="segoeui" type="Segoe UI" size="9" bold="0" allcaps="0" />
+	<color name="normal-fore" red="29" green="58" blue="87" filter_source="hueshift"/>
+	<settings name="alignment" value="right"/>
+	<settings name="auto-scroll" value="no"/>
+	<settings name="vertical-alignment" value="center"/>
+</control>

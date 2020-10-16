@@ -1,0 +1,316 @@
+<!ENTITY standardbutton '
+	<!-- Flat -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="flat">
+		<source name="buttons-asset" left="0" top="24" right="55" bottom="48"/>
+		<slice left="6" top="36" right="47" bottom="42"/>
+	</background>
+
+	<!-- Hover -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="over">
+		<source name="buttons-asset" left="0" top="48" right="55" bottom="72"/>
+		<slice left="6" top="60" right="47" bottom="66"/>
+	</background>
+
+	<!-- Push -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="push">
+		<source name="buttons-asset" left="0" top="72" right="55" bottom="96"/>
+		<slice left="6" top="84" right="47" bottom="90"/>
+	</background>
+	  
+	<!-- Disabled -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="disabled">
+		<source name="buttons-asset" left="0" top="144" right="55" bottom="168"/>
+		<slice left="6" top="146" right="49" bottom="165"/>
+	</background>
+'>
+
+<!ENTITY standardbutton-noflat '
+	<!-- Hover -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="over">
+		<source name="buttons-asset" left="0" top="48" right="55" bottom="72"/>
+		<slice left="6" top="60" right="47" bottom="66"/>
+	</background>
+
+	<!-- Push -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="push">
+		<source name="buttons-asset" left="0" top="72" right="55" bottom="96"/>
+		<slice left="6" top="84" right="47" bottom="90"/>
+	</background>
+	  
+	<!-- Disabled -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="disabled">
+		<source name="buttons-asset" left="0" top="144" right="55" bottom="168"/>
+		<slice left="6" top="146" right="49" bottom="165"/>
+	</background>
+'>
+
+<!ENTITY defaultbutton '
+	<!-- Flat -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="flat">
+		<source name="buttons-asset" left="0" top="0" right="55" bottom="24"/>
+		<slice left="6" top="12" right="47" bottom="18"/>
+	</background>
+
+	<!-- Hover -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="over">
+		<source name="buttons-asset" left="0" top="48" right="55" bottom="72"/>
+		<slice left="6" top="60" right="47" bottom="66"/>
+	</background>
+
+	<!-- Push -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="push">
+		<source name="buttons-asset" left="0" top="72" right="55" bottom="96"/>
+		<slice left="6" top="84" right="47" bottom="90"/>
+	</background>
+	  
+	<!-- Disabled -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="disabled">
+		<source name="buttons-asset" left="0" top="144" right="55" bottom="168"/>
+		<slice left="6" top="146" right="49" bottom="165"/>
+	</background>
+'>
+
+<!ENTITY minmaxclosehide '
+	<icontrol source="hidebutton-combined-left" name="hide" visible="&#37;window.has_hideAvailable&#37;*!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="137 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="106 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="minimizebutton-combined" name="minimize" visible="!&#37;window.has_hideAvailable&#37;*!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="108 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="77 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="minimizebutton-combined-middle" name="minimize" visible="&#37;window.has_hideAvailable&#37;*!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="106 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="77 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="maximizebutton-combined" name="maximize" visible="!&#37;window.maximized&#37;*!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="77 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="maximizedbutton-combined" name="maximize" visible="&#37;window.maximized&#37;*!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="77 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="closebutton-combined" name="close" visible="!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="0 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+'>
+
+<!ENTITY minmaxclosehideaero '
+	<icontrol source="hidebutton-combined-left" name="hide" visible="&#37;window.has_hideAvailable&#37;">
+		<rect>
+			<left num="137 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="106 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="minimizebutton-combined" name="minimize" visible="!&#37;window.has_hideAvailable&#37;">
+		<rect>
+			<left num="108 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="77 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="minimizebutton-combined-middle" name="minimize" visible="&#37;window.has_hideAvailable&#37;">
+		<rect>
+			<left num="106 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="77 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="maximizebutton-combined" name="maximize" visible="!&#37;window.maximized&#37;">
+		<rect>
+			<left num="77 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="maximizedbutton-combined" name="maximize" visible="&#37;window.maximized&#37;">
+		<rect>
+			<left num="77 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="closebutton-combined" name="close" visible="1">
+		<rect>
+			<left num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="0 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+'>
+<!ENTITY minclose '
+	<icontrol source="minimizebutton-combined" name="minimize" visible="!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="79 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="closebutton-combined" name="close" visible="!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="0 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+'>
+
+<!ENTITY minmaxhide '
+	<icontrol source="minimizebutton-combined" name="minimize" visible="!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="107 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="76 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="maximizebutton-combined" name="maximize" visible="!&#37;window.maximized&#37;*!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="76 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="47 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="maximizedbutton-combined" name="maximize" visible="&#37;window.maximized&#37;*!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="76 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="47 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="hidebutton-combined" name="hide" visible="!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="47 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="0 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+'>
+
+<!ENTITY hidemindetachaero '
+	<icontrol source="minimizebutton-combined" name="minimize" visible="&#37;window.has_taskbarEntry&#37;">
+		<rect>
+			<left num="78 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="47 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="hidebutton-combined" name="hide" visible="&#37;window.has_taskbarEntry&#37;*&#37;window.has_hideAvailable&#37;">
+		<rect>
+			<left num="47 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="0 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="detachbutton-standalone" name="detach" visible="&#37;window.has_detachAvailable&#37;">
+		<rect>
+			<left num="32 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="0 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="hidebutton-standalone" name="hide" visible="!&#37;window.has_taskbarEntry&#37;*&#37;window.has_hideAvailable&#37;">
+		<rect>
+			<left num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="0 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+'>
+
+<!ENTITY minclose '
+	<icontrol source="minimizebutton-combined" name="minimize" visible="!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="79 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="closebutton-combined" name="close" visible="!&#37;system.windows.vista.glass&#37;">
+		<rect>
+			<left num="48 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="0 + ((!&#37;system.windows.vista.glass&#37;) * 6)" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+'>
+
+<!ENTITY hover-button-art '
+	<!-- Flat -->
+		<!-- No flat images needed -->
+
+	<!-- Hover -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="over">
+		<source name="buttons-asset" left="0" top="96" right="55" bottom="120"/> <!-- theme -->
+		<slice left="3" top="108" right="52" bottom="115"/>
+	</background>
+
+	<!-- Push -->
+	<background transparent="1" middle="1" stretch="1" visible="1" type="push">
+		<source name="buttons-asset" left="0" top="120" right="55" bottom="144"/> <!-- theme -->
+		<slice left="3" top="132" right="52" bottom="139"/>
+	</background>
+'>
+

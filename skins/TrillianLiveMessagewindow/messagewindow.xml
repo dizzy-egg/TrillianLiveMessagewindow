@@ -1,0 +1,1005 @@
+<component name="message" minx="301" miny="260" defaultx="415" defaulty="520">
+	<color red="255" green="255" blue="255"/>
+	
+	<!-- Color background -->	
+	<background transparent="1" middle="1" stretch="0" visible="!%message.multiple%">
+		<source name="bmpTrillianLiveAssets" left="155" top="149" right="215" bottom="209"/> 
+		<slice left="160" top="150" right="210" bottom="208"/>
+		<rect>
+			<left num="0" width="0"/>
+			<top num="60" height="1"/>
+			<right num="0" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background>
+
+	<!-- Toolbar background -->
+	<background transparent="1" middle="1" stretch="0" visible="!%message.multiple%*%message.actions.toolbar%">
+		<source name="bmpTrillianLiveAssets" left="0" top="69" right="102" bottom="100"/> 
+		<slice left="2" top="74" right="100" bottom="90"/>
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="0" width="1"/>
+			<bottom num="29" height="0"/>
+		</rect>
+	</background>
+
+	<!-- Toolbar frambar -->
+	<icontrol source="toolframebar" name="toolframebar" visible="!%message.multiple%*%message.actions.toolbar%">
+		<rect>
+			<left num="2" width="0"/>
+			<top num="0" height="0"/>
+			<right num="60" width="1"/>
+			<bottom num="20" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="morebutton" name="more-menu" visible="!%message.multiple%*%message.actions.toolbar%">
+		<rect>
+			<left num="55" width="1"/>
+			<top num="0" height="0"/>
+			<right num="2" width="1"/>
+			<bottom num="20" height="0"/>
+		</rect>
+	</icontrol>
+
+	
+	<frame source="avatarzone" name="avatarzone" visible="%showavatar%*(!%message.video%)">
+		<rect>
+			<left num="0" width="0"/>
+			<top num="%message.actions.toolbar% * 21" height="0"/>
+			<right num="127-((%message.facebook%||%message.icq%||%message.aim%)*60)" width="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</frame>
+
+	<frame source="messageinterior" name="messageinterior" visible="1">
+		<rect>
+			<left num="%showavatar%*(130-((%message.facebook%||%message.icq%||%message.aim%)*60))*!(%message.video%)" width="0"/> 
+			<top num="%message.actions.toolbar% * 21" height="0"/>
+			<right num="0" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</frame>
+</component>
+<component name="avatarzone">
+	<frame source="theiravatar" name="theiravatar" visible="1">
+		<rect><left num="0" width="0"/><right num="127-((%message.facebook%||%message.icq%||%message.aim%)*60)" width="0"/><top num="0" height="0"/><bottom num="127-((%message.facebook%||%message.icq%||%message.aim%)*60)" height="0"/></rect>
+	</frame>
+	<frame source="youravatar" name="youravatar" visible="1">
+		<rect><left num="0" width="0"/><right num="127-((%message.facebook%||%message.icq%||%message.aim%)*60)" width="0"/><top num="127-((%message.facebook%||%message.icq%||%message.aim%)*60)" height="1"/><bottom num="0" height="1"/></rect>
+	</frame>
+</component>
+
+<component name="theiravatar">
+	<icontrol source="Remotebuddyicon" name="intro-avatar" visible="1">
+		<rect><left num="15-6*(%message.facebook%||%message.icq%||%message.aim%)" width="0"/><right num="111-54*(%message.facebook%||%message.icq%||%message.aim%)" width="0"/><top num="13-5*(%message.facebook%||%message.icq%||%message.aim%)" height="0"/><bottom num="109-53*(%message.facebook%||%message.icq%||%message.aim%)" height="0"/></rect></icontrol>
+ 	<icontrol source="swcMediumFrame" name="medium" visible="1">
+		<rect><left num="0" width="0"/><right num="0" width="1"/><top num="0" height="0"/><bottom num="0" height="1"/></rect></icontrol>
+</component>
+
+<component name="youravatar">
+	<icontrol source="yourbuddyicon" name="local-avatar" visible="1">
+		<rect><left num="15-6*(%message.facebook%||%message.icq%||%message.aim%)" width="0"/><right num="111-54*(%message.facebook%||%message.icq%||%message.aim%)" width="0"/><top num="13-5*(%message.facebook%||%message.icq%||%message.aim%)" height="0"/><bottom num="109-53*(%message.facebook%||%message.icq%||%message.aim%)" height="0"/></rect></icontrol>
+ 	<!--<icontrol source="swcMediumFrame" name="medium" visible="1">
+		<rect><left num="0" width="0"/><right num="127" width="0"/><top num="0" height="0"/><bottom num="0" height="1"/></rect></icontrol>-->
+	<background stretch="1"  visible="!(%message.facebook%||%message.icq%||%message.aim%)"><source name="96offline" left="0" top="0" right="127" bottom="127"/><rect><left num="0" width="0"/><right num="0" width="1"/><top num="0" height="0"/><bottom num="0" height="1"/></rect></background>
+	<background stretch="1"  visible="(%message.facebook%||%message.icq%||%message.aim%)"><source name="48offline" left="0" top="0" right="67" bottom="67"/><rect><left num="0" width="0"/><right num="0" width="1"/><top num="0" height="0"/><bottom num="0" height="1"/></rect></background>
+</component>
+
+
+<!-- Message Interior -->
+<component name="messageinterior">
+
+	<frame source="toggleframe" name="toggleframe" visible="1">
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="12" width="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</frame> 
+
+
+	<icontrol source="TopTitleName" name="remote-name" visible="&ShowTopsection;">
+		<rect><top num="0" height="0"/><bottom num="35" height="0"/><left num="12" width="0"/><right num="0" width="1"/></rect></icontrol>
+	<icontrol source="TopTitleSub" name="message" visible="&ShowTopsection;">
+		<rect><top num="33" height="0"/><bottom num="50" height="0"/><left num="17" width="0"/><right num="0" width="1"/></rect></icontrol>
+
+	<icontrol source="alertbar" name="alertbar" visible="!%message.multiple%">
+		<rect>
+			<left num="10" width="0"/>
+			<top num="(38 +(15*%message.status.message%))*&ShowTopsection;" height="0"/>
+			<right num="10" width="1"/>
+			<bottom num="(38 +(15*%message.status.message%) + %alertbar.desired_height%)*&ShowTopsection;" height="0"/>
+		</rect>
+	</icontrol>
+
+	<frame source="message-videochat" name="message-videochat" visible="%message.video%"> 
+		<rect>
+			<left num="0" width="0"/> 
+			<top num="((38 +(15*%message.status.message%) + %alertbar.desired_height%))*&ShowTopsection;" height="0"/>
+			<right num="0" width="1"/>
+			<bottom num="((%message.audio.connected% * (%message.audio% || %message.video%)) * 31)" orientation="above" source="message-join"/>
+		</rect>
+	</frame>
+
+	<!-- this is the actual conversation display area -->
+	<frame source="message-chattext" name="message-chattext" visible="!(%message.video%)">  
+		<rect>
+			<left num="12" width="0"/> 
+			<top num="(!%message.multiple% * (38 +(15*%message.status.message%) + %alertbar.desired_height%))*&ShowTopsection;" height="0"/>
+			<right num="0" width="1"/>
+			<bottom num="((%message.audio.connected% * (%message.audio% || %message.video%)) * 31)" orientation="above" source="message-join"/>
+		</rect>
+	</frame>
+	
+	<frame source="message-audiochat" name="message-audiochat" visible="%message.audio.connected% * (%message.audio% || %message.video%)">  
+		<rect>
+			<left num="10" width="0"/> 
+			<top num="34" orientation="above" source="message-join"/>
+			<right num="10" width="1"/>
+			<bottom num="0" orientation="above" source="message-join"/>
+		</rect>
+	</frame>
+
+	<!-- Joining the top to the bottom -->
+	<anchor name="message-join" type="northsouth" saveable="yes">
+		<location type="default" num="60+%edit.desired_height%-(28*!%message.edit.toolbar%)" height="1"/>
+		<location type="min" num="94" height="0"/>
+		<location type="max" num="min(%window.height%-94,60+%edit.desired_height%-(28*!%message.edit.toolbar%))" height="1"/> 
+		<resize type="northsouth">
+			<rtype type="northsouth">
+				<region type="rectangle" combinetype="or">
+					<rect>
+						<left num="8" width="0"/>
+						<top num="10" orientation="above" source="message-join"/>
+						<right num="58" width="1"/>
+						<bottom num="10" orientation="below" source="message-join"/>
+					</rect>
+				</region>
+			</rtype>
+		</resize>
+	</anchor>
+
+	<!-- Bottom of Message Window -->
+	<frame source="message-edittext" name="message-edittext" visible="1">
+		<rect>
+			<left num="0" width="0"/>
+			<top num="5" orientation="below" source="message-join"/>
+			<right num="9" width="1"/>
+			<bottom num="9" height="1"/>
+		</rect>
+	</frame> 
+</component>
+
+<component name="toggleframe">
+	<icontrol source="hideavatar" name="hideavatar" visible="(%showavatar%)*(!%message.video%)">
+		<rect>
+			<left num="0" width="0"/>
+			<top num="40" height="0"/>
+			<right num="12" width="0"/>
+			<bottom num="40" height="1"/>
+		</rect>
+	</icontrol>
+	<background    visible="%hideavatar.hover%" >
+		<source name="bmpTrillianLiveAssets" left="29" top="104" right="36" bottom="113"/> 
+		<rect>
+			<left num="5" width="0"/>
+			<top num="(%window.height%/2)-5-37*(!%system.windows.vista.glass%)" height="0"/>
+			<right num="12" width="0"/>
+			<bottom num="(%window.height%/2)+4-37*(!%system.windows.vista.glass%)" height="0"/>
+		</rect>
+	</background>
+	<icontrol source="showavatar" name="showavatar" visible="(!%showavatar%)*(!%message.video%)">
+		<rect>
+			<left num="0" width="0"/>
+			<top num="40" height="0"/>
+			<right num="12" width="0"/>
+			<bottom num="40" height="1"/>
+		</rect>
+	</icontrol>
+	<background    visible="%showavatar.hover%" >
+		<source name="bmpTrillianLiveAssets" left="29" top="113" right="36" bottom="122"/> 
+		<rect>
+			<left num="5" width="0"/>
+			<top num="(%window.height%/2)-5-37*(!%system.windows.vista.glass%)" height="0"/>
+			<right num="12" width="0"/>
+			<bottom num="(%window.height%/2)+4-37*(!%system.windows.vista.glass%)" height="0"/>
+		</rect>
+	</background>
+</component>
+
+<!-- Message Bottom gfx layout and icontrols -->
+<component name="message-edittext">
+
+	<background transparent="1" middle="1" stretch="1" visible="%showavatar%">
+		<source name="bmpTrillianLiveAssets" left="135" top="69" right="215" bottom="109"/> <!-- theme -->
+		<slice left="145" top="71" right="200" bottom="80"/>
+	</background>
+	<background transparent="1" middle="1" stretch="1" visible="!%showavatar%">
+		<source name="bmpTrillianLiveAssets" left="135" top="109" right="215" bottom="149"/> <!-- theme -->
+		<slice left="145" top="111" right="200" bottom="146"/>
+	</background>
+
+	<!-- Icontrols for the bottom part of the message window -->
+
+	<!-- the actual edit area bg gfx
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="textboxes-asset" left="0" top="60" right="161" bottom="84"/>
+		<slice left="3" top="63" right="157" bottom="79"/>
+		<rect>
+			<left num="16" width="0"/>
+			<top num="6" height="0"/>
+			<right num="6 +(((&ShowSendButton;*%edit.hastext%)||%message.draw%)*37*%message.edit.capable%)" width="1"/>
+			<bottom num="28-(!%message.edit.toolbar%*22)" height="1"/>
+		</rect>
+	</background> -->
+
+	<!-- all the edit options -->
+	<icontrol source="editframebar" name="editframebar" visible="%message.edit.toolbar%">
+		<rect>
+			<left num="16" width="0"/>
+			<top num="24" height="1"/>
+			<right num="6" width="1"/>
+			<bottom num="2" height="1"/>
+		</rect>
+	</icontrol>
+
+	<!-- Edit Text bit where you type -->
+	<icontrol source="edit-console" name="edit" visible="%message.edit.capable%">
+		<rect>
+			<left num="20" width="0"/>
+			<top num="8" height="0"/>
+			<right num="11+(((&ShowSendButton;*%edit.hastext%)||%message.draw%)*32)" width="1"/>
+			<bottom num="33-(!%message.edit.toolbar%*22)" height="1"/>
+		</rect>
+	</icontrol>
+
+	<!-- <frame source="message-edit-disabled" name="message-edit-disabled" visible="!%message.edit.capable%">
+		<rect>
+			<left num="17" width="0"/>
+			<top num="7" height="0"/>
+			<right num="7" width="1"/>
+			<bottom num="29-(!%message.edit.toolbar%*22)" height="1"/>
+		</rect>
+	</frame> -->
+
+	<!-- send button - resizes with the edit console -->
+	<icontrol source="sendbutton" name="send_message" visible="((&ShowSendButton;*%edit.hastext%)||%message.draw%)*%message.edit.capable%">
+		<rect>
+			<left num="40" width="1"/>
+			<top num="6" height="0"/>
+			<right num="8" width="1"/>
+			<bottom num="28-(!%message.edit.toolbar%*22)" height="1"/>
+		</rect>
+	</icontrol>
+</component> 
+
+<component name="message-edit-disabled">
+	<color red="212" green="212" blue="212"/>
+</component>
+
+<!-- Message Top gfx layout and icontrols -->
+<component name="message-chattext">
+	
+<!-- Icontrols for the top part of the message window -->
+
+	<!-- Chat text -->
+	<icontrol source="display-console" name="display" visible="!%message.profile.visible%">
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="%display.scrollbar_needed%*16" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+
+	<!-- Scroll bar background
+	<background transparent="1" middle="1" stretch="1" visible="%display.scrollbar_needed%">
+		<source name="scrollbars-asset" left="45" top="0" right="62" bottom="32"/> 
+		<slice left="49" top="0" right="58" bottom="32"/>
+		<rect>
+			<left num="17" width="1"/>
+			<top num="0" height="0"/>
+			<right num="0" width="1"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</background> -->
+
+	<!-- The Scrollup Button -->
+	<icontrol source="scrollup-blank" name="scrollup" visible="1">
+		<rect>
+			<left num="(%display.scrollbar_needed%*16)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="1" width="1"/>
+			<bottom num="17" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- Msg Scroll Bar -->
+	<icontrol source="scroll" name="scrollbar" visible="1">
+		<rect>
+			<left num="%display.scrollbar_needed%*16" width="1"/>
+			<top num="18" height="0"/>
+			<right num="1" width="1"/>
+			<bottom num="18" height="1"/>
+		</rect>
+	</icontrol>
+
+	<!-- The Scrolldown Button -->
+	<icontrol source="scrolldown-blank" name="scrolldown" visible="1">
+		<rect>
+			<left num="%display.scrollbar_needed%*16" width="1"/>
+			<top num="17" height="1"/>
+			<right num="1" width="1"/>
+			<bottom num="1" height="1"/>
+		</rect>
+	</icontrol>
+
+	<!-- The Scrollup Button -->
+	<icontrol source="scrollup" name="info-list-scrollup" visible="%message.profile.visible%">
+		<rect>
+			<left num="1+(%info-list.scrollbar_needed%*15)" width="1"/>
+			<top num="1" height="0"/>
+			<right num="1" width="1"/>
+			<bottom num="17" height="0"/>
+		</rect>
+	</icontrol>
+
+	<!-- Msg Scroll Bar -->
+	<icontrol source="scroll" name="info-list-scrollbar" visible="%message.profile.visible%">
+		<rect>
+			<left num="%info-list.scrollbar_needed%*16" width="1"/>
+			<top num="18" height="0"/>
+			<right num="1" width="1"/>
+			<bottom num="18" height="1"/>
+		</rect>
+	</icontrol>
+
+	<!-- The Scrolldown Button -->
+	<icontrol source="scrolldown" name="info-list-scrolldown" visible="%message.profile.visible%">
+		<rect>
+			<left num="%info-list.scrollbar_needed%*16" width="1"/>
+			<top num="17" height="1"/>
+			<right num="1" width="1"/>
+			<bottom num="1" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="message-videochat">
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="av-asset" left="0" top="0" right="101" bottom="220"/> 
+		<slice left="0" top="0" right="101" bottom="219"/>
+	</background>
+	<icontrol source="msg-video" name="video">
+		<rect>
+			<bottom num="9" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="message-audiochat">
+	
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="bmpTrillianLiveAssets" left="0" top="33" right="204" bottom="69"/> 
+		<slice left="11" top="44" right="193" bottom="54"/>
+		<rect>
+			<bottom num="36" height="0"/>
+		</rect>
+	</background>
+
+	<frame source="vol-mix" name="vol-mix">
+		<rect>
+			<left num="10" width="0"/>
+			<top num="8" height="0"/>
+			<right num="44" width="0"/>
+			<bottom num="26" height="0"/>
+		</rect>
+	</frame>
+	<icontrol source="volume-level-progress" name="audio-remote" visible="1">
+		<rect>
+			<left num="46" width="0"/>
+			<top num="12" height="0"/>
+			<right num="101" width="0"/>
+			<bottom num="22" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="volume-slider" name="audio-remote-volume" visible="1">
+		<rect>
+			<left num="46" width="0"/>
+			<top num="10" height="0"/>
+			<right num="101" width="0"/>
+			<bottom num="24" height="0"/>
+		</rect>
+	</icontrol>
+
+	<frame source="mic-mix" name="mic-mix">
+		<rect>
+			<left num="104" width="0"/>
+			<top num="8" height="0"/>
+			<right num="138" width="0"/>
+			<bottom num="26" height="0"/>
+		</rect>
+	</frame>
+	<icontrol source="volume-level-progress" name="audio-local" visible="1">
+		<rect>
+			<left num="140" width="0"/>
+			<top num="12" height="0"/>
+			<right num="195" width="0"/>
+			<bottom num="22" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="volume-slider" name="audio-local-volume" visible="1">
+		<rect>
+			<left num="140" width="0"/>
+			<top num="10" height="0"/>
+			<right num="195" width="0"/>
+			<bottom num="24" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="audio-disconnect-button" name="audio-disconnect" visible="%message.audio.connected%">
+		<rect>
+			<left num="197" width="0"/>
+			<top num="8" height="0"/>
+			<right num="217" width="0"/>
+			<bottom num="26" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="audio-hold-button" name="audio-hold" visible="%message.audio.connected%*%message.audio.hold.capable%">
+		<rect>
+			<left num="217" width="1"/>
+			<top num="8" height="0"/>
+			<right num="237" width="1"/>
+			<bottom num="26" height="0"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="audio-timer-topic" name="audio-timer" visible="1">
+		<rect>
+			<left num="60" width="1"/>
+			<top num="12" height="0"/>
+			<right num="10" width="1"/>
+			<bottom num="22" height="0"/>
+		</rect>
+	</icontrol>
+
+</component>
+
+<component name="vol-mix" >
+	<icontrol source="drawbar-arrowup" name="audio-speakers" visible="1" />
+	<icontrol source="vol-button" name="audio-local-mute" visible="1" >
+		<rect>
+			<left num="2" width="0"/>
+			<top num="2" height="0"/>
+			<right num="18" width="0"/>
+			<bottom num="18" height="0"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="mic-mix" >
+	<icontrol source="drawbar-arrowup" name="audio-microphone" visible="1" />
+	<icontrol source="mic-button" name="audio-remote-mute" visible="1" >
+		<rect>
+			<left num="2" width="0"/>
+			<top num="2" height="0"/>
+			<right num="18" width="0"/>
+			<bottom num="18" height="0"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="framebar-add" defaultx="60" defaulty="20">
+	<icontrol source="addbutton" name="toolbar-add" visible="1"/>
+</component>
+
+<component name="framebar-block" defaultx="37" defaulty="20">
+	<icontrol source="blockbutton" name="toolbar-block" visible="1"/>
+</component>
+
+<component name="framebar-call" defaultx="45" defaulty="20">
+	<icontrol source="callbutton" name="call-menu" visible="1"/>
+</component>
+
+<component name="framebar-info" defaultx="33" defaulty="20">
+	<icontrol source="info-button" name="toolbar-info" visible="1"/>
+</component>
+
+<component name="framebar-history" defaultx="47" defaulty="20">
+	<icontrol source="historybutton" name="toolbar-history" visible="1"/>
+</component>
+
+<component name="framebar-sendfile" defaultx="57" defaulty="20">
+	<icontrol source="sendfilebutton" name="toolbar-sendfile" visible="1"/>
+</component>
+
+<component name="framebar-invite" defaultx="40" defaulty="20">
+	<icontrol source="invitebutton" name="toolbar-invite" visible="1"/>
+</component>
+
+<component name="framebar-refresh" defaultx="58" defaulty="20">
+	<icontrol source="refreshbutton" name="toolbar-info-refresh" visible="1" />
+</component>
+
+<component name="framebar-drawmode" defaultx="20" defaulty="20">
+	<icontrol source="drawbutton" name="pen-on" visible="1"/>
+</component>
+
+<component name="framebar-drawmode-off" defaultx="20" defaulty="20">
+	<icontrol source="drawbuttonoff" name="pen-off" visible="1"/>
+</component>
+
+<component name="framebar-style" defaultx="34" defaulty="20">
+	<icontrol source="fontstylesbutton" name="editbar-style" visible="1" />
+</component>
+
+<component name="framebar-insert" defaultx="34" defaulty="20">
+	<icontrol source="insertbutton" name="editbar-insert" visible="1" />
+</component>
+
+<component name="framebar-emoticon" defaultx="34" defaulty="20">
+	<icontrol source="emoticonbutton" name="editbar-emoticon" visible="1" />
+</component>
+
+<component name="framebar-buzzer" defaultx="20" defaulty="20">
+	<icontrol source="buzzbutton" name="editbar-buzz" visible="1" />
+</component>
+
+<component name="framebar-pencilbutton" defaultx="34" defaulty="20">
+	<icontrol source="drawbar-arrowup" name="draw-pencil-width" visible="1" />
+	<icontrol source="pencilbutton" name="draw-pencil" visible="1" >
+		<rect>
+			<right num="15" width="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="framebar-highlighterbutton" defaultx="34" defaulty="20">
+	<icontrol source="drawbar-arrowup" name="draw-highlighter-width" visible="1" />
+	<icontrol source="highlighterbutton" name="draw-highlighter" visible="1" >
+		<rect>
+			<right num="15" width="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="framebar-eraserbutton" defaultx="34" defaulty="20">
+	<icontrol source="drawbar-arrowup" name="draw-eraser-width" visible="1" />
+	<icontrol source="eraserbutton" name="draw-eraser" visible="1" >
+		<rect>
+			<right num="15" width="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="framebar-colorbutton" defaultx="34" defaulty="20">
+	<icontrol source="colorbutton" name="draw-color" visible="1" />
+</component>
+
+<component name="framebar-separator" defaultx="5" defaulty="20">
+	<icontrol source="toolbar-separator" name="toolbar-separator" visible="1" />
+</component>
+
+<component name="framebar-wipebutton" defaultx="20" defaulty="20">
+	<icontrol source="wipebutton" name="draw-wipe" visible="1" />
+</component>
+
+<!-- COMPONENTS FOR FONT STYLE MENU -->
+<component name="stylemenu" minx="202">
+	<mainregion usebitmap="1"/>
+	<background transparent="1" middle="1" visible="1" stretch="1">
+		<source name="skin-asset" left="216" top="116" right="310" bottom="193"/> 
+		<slice left="221" top="121" right="305" bottom="188"/>
+	</background>
+	<frame source="stylemenu-editbar" name="stylemenu-editbar">
+		<rect>
+			<left num="3" width="0"/>
+			<top num="3" height="0"/>
+			<right num="3" width="1"/>
+			<bottom num="3" height="1"/>
+		</rect>
+	</frame>
+</component>
+
+<component name="stylemenu-editbar">
+	<icontrol source="contextmenus" name="menu">
+		<rect>
+			<bottom num="22" height="1"/>
+		</rect>
+	</icontrol>
+	<frame source="comCBox-SepBtm" name="fraCBox-SepBtm">
+		<rect>
+			<top num="22" height="1"/>
+			<bottom num="20" height="1"/>
+		</rect>
+	</frame>
+	<frame source="stylemenu-toolbarframe" name="stylemenu-toolbarframe">
+		<rect>
+			<top num="24" height="1"/>
+		</rect>
+	</frame>
+</component>
+
+<component name="stylemenu-toolbarframe">
+	<icontrol source="style-menu-bar" name="style-menu-bar">
+		<rect>
+			<left num="3" width="0"/>
+			<right num="0" width="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="editbar-fontforecolor" defaultx="24" defaulty="24">
+	<icontrol source="btnEditBar-FontForeColor" name="editbar-forecolor">
+		<rect>
+			<top num="0" height="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="editbar-fontbackcolor" defaultx="24" defaulty="24">
+	<icontrol source="btnEditBar-FontBackColor" name="editbar-backcolor">
+		<rect>
+			<top num="0" height="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="editbar-fontsize" defaultx="72" defaulty="24"> 
+	<frame source="comToolbarSeparator" name="fraToolbarSeparator">
+		<rect>
+			<right num="&iniToolbarSepWidth;" width="0"/>
+		</rect>
+	</frame>
+
+	<icontrol source="btnEditBar-FontSmallerSize" name="editbar-sizesmaller">
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="24" width="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="btnEditBar-FontNormalSize" name="editbar-sizenormal">
+		<rect>
+			<left num="24" width="0"/>
+			<top num="0" height="0"/>
+			<right num="48" width="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="btnEditBar-FontLargerSize" name="editbar-sizelarger">
+		<rect>
+			<left num="48" width="0"/>
+			<top num="0" height="0"/>
+			<right num="72" width="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="editbar-bolditalicunderline" defaultx="72" defaulty="24">
+	<icontrol source="btnEditBar-FontBold" name="editbar-bold">
+		<rect>
+			<left num="0" width="0"/>
+			<top num="0" height="0"/>
+			<right num="24" width="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="btnEditBar-FontItalics" name="editbar-italics">
+		<rect>
+			<left num="24" width="0"/>
+			<top num="0" height="0"/>
+			<right num="48" width="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="btnEditBar-FontUnderline" name="editbar-underline">
+		<rect>
+			<left num="48" width="0"/>
+			<top num="0" height="0"/>
+			<right num="72" width="0"/>
+			<bottom num="0" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<!-- TROUBLESHOOT STATUS -->
+<component name="user-offline" miny="(12+max(31,%troubleshoot-text.desired_height%))" defaulty="(12+max(31,%troubleshoot-text.desired_height%))">
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="bmpTrillianLiveAssets-notheme" left="0" top="0" right="102" bottom="33"/> 
+		<slice left="11" top="11" right="91" bottom="21"/>
+	</background>
+
+	<icontrol source="status-text" name="troubleshoot-text">
+		<rect>
+			<left num="10" width="0"/>
+			<top num="0" height="0"/>
+			<right num="100 - (70*%message.edit.capable%)" width="1"/>
+			<bottom num="1" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="troublebutton" name="troubleshoot" visible="!%message.edit.capable%">
+		<rect>
+			<left num="96" width="1"/>
+			<top num="9" height="0"/>
+			<right num="10" width="1"/>
+			<bottom num="33" height="0"/>
+		</rect>
+	</icontrol>
+	<icontrol source="troublebutton-close" name="troubleshoot-close" visible="%message.edit.capable%">
+		<rect>
+			<left num="22" width="1"/>
+			<top num="5" height="0"/>
+			<right num="5" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+</component>
+
+<!-- STRANGER WARNING STATUS -->
+<component name="stranger-danger" miny="(16+max(30,%strangertext.desired_height%))" defaulty="(16+max(30,%strangertext.desired_height%))">
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="bmpTrillianLiveAssets-notheme" left="102" top="0" right="204" bottom="33"/> 
+		<slice left="113" top="11" right="193" bottom="21"/>
+	</background>
+
+	<icontrol source="strangertext" name="strangertext">
+		<rect>
+			<left num="10" width="0"/>
+			<top num="1" height="0"/>
+			<right num="30" width="1"/>
+			<bottom num="1" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="stranger-close-button" name="stranger-close-button">
+		<rect>
+			<left num="22" width="1"/>
+			<top num="5" height="0"/>
+			<right num="5" width="1"/>
+			<bottom num="21" height="0"/>
+		</rect>
+	</icontrol>
+</component>
+
+<!-- ADD REQUEST ACCEPT DENY STATUS -->
+<component name="addrequest" miny="(14+max(30,%auth-acceptdenytext.desired_height% + 38))" defaulty="(14+max(30,%auth-acceptdenytext.desired_height% + 38))">
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="bmpTrillianLiveAssets-notheme" left="0" top="0" right="102" bottom="35"/> 
+		<slice left="11" top="11" right="91" bottom="21"/>
+	</background>
+	<icontrol source="status-tooltip" name="auth-acceptdenytext">
+		<rect>
+			<left num="10" width="0"/>
+			<top num="10" height="0"/>
+			<right num="10" width="1"/>
+			<bottom num="1" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="accept-deny-ignore-framebar" name="accept-deny-ignore-framebar">
+		<rect>
+			<left num="10" width="0"/>
+			<top num="36" height="1"/>
+			<right num="10" width="1"/>
+			<bottom num="10" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<!-- AUDIO CALL INITIATION STATUS -->
+<component name="audio-init" miny="(14+max(30,%audio-init-tooltip.desired_height%))" defaulty="(14+max(30,%audio-init-tooltip.desired_height%))">
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="bmpTrillianLiveAssets-notheme" left="0" top="0" right="102" bottom="33"/> 
+		<slice left="11" top="11" right="91" bottom="21"/>
+	</background>
+	<background>
+		<source name="general16-asset-notheme" left="0" top="112" right="16" bottom="128"/> 
+		<slice left="0" top="112" right="16" bottom="128"/>
+		<rect>
+			<left num="10" width="0"/>
+			<top num="((14+max(30,%audio-init-tooltip.desired_height%))-20) / 2" height="0"/>
+			<right num="26" width="0"/>
+			<bottom num="(((14+max(30,%audio-init-tooltip.desired_height%))-20) / 2) + 16" height="0"/>
+		</rect>
+	</background>
+	<icontrol source="audio-init-tooltip" name="audio-acceptdenytext">
+		<rect>
+			<left num="31" width="0"/>
+			<top num="1" height="0"/>
+			<right num="200" width="1"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="audio-init-framebar" name="audio-init-framebar">
+		<rect>
+			<left num="180" width="1"/>
+			<top num="9" height="0"/>
+			<right num="10" width="1"/>
+			<bottom num="34" height="0"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="audio-status" miny="(14+max(30,%audio-status-text.desired_height%))" defaulty="(14+max(30,%audio-status-text.desired_height%))">
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="bmpTrillianLiveAssets-notheme" left="0" top="0" right="102" bottom="33"/> 
+		<slice left="11" top="11" right="91" bottom="21"/>
+	</background>
+
+	<icontrol source="status-tooltip-center" name="audio-status-text">
+		<rect>
+			<left num="18" width="0"/>
+			<top num="1" height="0"/>
+			<right num="100" width="1"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="troublebutton" name="audio-status-button">
+		<rect>
+			<left num="96" width="1"/>
+			<top num="9" height="0"/>
+			<right num="10" width="1"/>
+			<bottom num="34" height="0"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="video-status" miny="(14+max(30,%video-status-text.desired_height%))" defaulty="(14+max(30,%video-status-text.desired_height%))">
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="bmpTrillianLiveAssets-notheme" left="0" top="0" right="102" bottom="33"/> 
+		<slice left="11" top="11" right="91" bottom="21"/>
+	</background>
+
+	<icontrol source="status-tooltip-center" name="video-status-text">
+		<rect>
+			<left num="10" width="0"/>
+			<top num="1" height="0"/>
+			<right num="100" width="1"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+
+	<icontrol source="troublebutton" name="video-status-button">
+		<rect>
+			<left num="96" width="1"/>
+			<top num="9" height="0"/>
+			<right num="10" width="1"/>
+			<bottom num="34" height="0"/>
+		</rect>
+	</icontrol>
+</component>
+
+<!-- AUDIO CALL INITIATION STATUS -->
+<component name="accept-button-frame" defaultx="80" defaulty="24">
+	<icontrol source="accept-button" name="auth-accept"/>
+</component>
+<component name="deny-button-frame" defaultx="80" defaulty="24">
+	<icontrol source="deny-button" name="auth-deny"/>
+</component>
+<component name="ignore-button-frame" defaultx="80" defaulty="24">
+	<icontrol source="ignore-button" name="auth-ignore"/>
+</component>
+<component name="spacer-frame" defaultx="10" defaulty="24">
+</component>
+
+<component name="add-accepted" miny="%auth-statustext.desired_height% + 8" defaulty="%auth-statustext.desired_height% + 8">
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="bmpTrillianLiveAssets-notheme" left="0" top="0" right="102" bottom="35"/> 
+		<slice left="11" top="11" right="91" bottom="21"/>
+	</background>
+	<icontrol source="status-tooltip" name="auth-statustext">
+		<rect>
+			<left num="20" width="0"/>
+			<top num="4" height="0"/>
+			<right num="20" width="1"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="audio-init-accept-frame" defaultx="80" defaulty="24">
+	<icontrol source="audio-init-accept-button" name="audio-accept"/>
+</component>
+<component name="audio-init-deny-frame" defaultx="80" defaulty="24">
+	<icontrol source="audio-init-deny-button" name="audio-deny"/>
+</component>
+
+<component name="video-init-accept-frame" defaultx="80" defaulty="24">
+	<icontrol source="video-init-accept-button" name="video-accept"/>
+</component>
+<component name="video-init-deny-frame" defaultx="80" defaulty="24">
+	<icontrol source="video-init-deny-button" name="video-deny"/>
+</component>
+
+<!-- VIDEO CHAT INITIATION STATUS -->
+<component name="video-init" miny="(14+max(30,%video-init-tooltip.desired_height%))" defaulty="(14+max(30,%video-init-tooltip.desired_height%))">
+	<background transparent="1" middle="1" stretch="1" visible="1">
+		<source name="bmpTrillianLiveAssets-notheme" left="0" top="0" right="102" bottom="33"/> 
+		<slice left="11" top="11" right="91" bottom="21"/>
+	</background>
+	<background>
+		<source name="general16-asset-notheme" left="16" top="112" right="32" bottom="128"/> 
+		<slice left="16" top="112" right="32" bottom="128"/>
+		<rect>
+			<left num="10" width="0"/>
+			<top num="((14+max(30,%video-init-tooltip.desired_height%))-20) / 2" height="0"/>
+			<right num="26" width="0"/>
+			<bottom num="(((14+max(30,%video-init-tooltip.desired_height%))-20) / 2) + 16" height="0"/>
+		</rect>
+	</background>
+	<icontrol source="video-init-tooltip" name="video-acceptdenytext">
+		<rect>
+			<left num="31" width="0"/>
+			<top num="1" height="0"/>
+			<right num="200" width="1"/>
+			<bottom num="4" height="1"/>
+		</rect>
+	</icontrol>
+	<icontrol source="video-init-framebar" name="video-init-framebar">
+		<rect>
+			<left num="180" width="1"/>
+			<top num="9" height="0"/>
+			<right num="10" width="1"/>
+			<bottom num="34" height="0"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="message-infolist-header" miny="30" defaulty="30">
+	<icontrol source="topicinfolistheader" name="header">
+		<rect>
+			<left num="5" width="0"/>
+			<right num="5" width="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="message-infolist-typevalue" miny="30" defaulty="16 + %this.value.desired_height%">
+	<icontrol source="topicinfolistheader" name="type">
+		<rect>
+			<left num="10" width="0"/>
+			<right num="100" width="0"/>
+			<top num="8" height="0"/>
+			<bottom num="22" height="0"/>
+		</rect>
+	</icontrol>
+	<icontrol source="topicinfolistvalue" name="value">
+		<rect>
+			<left num="110" width="0"/>
+			<right num="10" width="1"/>
+			<top num="8" height="0"/>
+			<bottom num="8" height="1"/>
+		</rect>
+	</icontrol>
+</component>
+
+<component name="twitter-infolist-typevalue" defaulty="8 + %this.type.desired_height% + %this.value.desired_height%">
+	<icontrol source="tooltipinfolistvalue" name="value">
+		<rect>
+			<left num="10" width="0"/>
+			<right num="10" width="1"/>
+			<top num="4" height="0"/>
+			<bottom num="4+%this.value.desired_height%" height="0"/>
+		</rect>
+	</icontrol>
+	<icontrol source="twitterinfolistheader" name="type">
+		<rect>
+			<left num="10" width="0"/>
+			<right num="10" width="1"/>
+			<top num="4 + %this.value.desired_height%" height="0"/>
+			<bottom num="4 + %this.value.desired_height% + 4 + %this.type.desired_height%" height="0"/>
+		</rect>
+	</icontrol>
+</component>
+

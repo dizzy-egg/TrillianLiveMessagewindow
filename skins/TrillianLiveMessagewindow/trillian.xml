@@ -1,0 +1,96 @@
+<!DOCTYPE dtdTrillianLive [
+<!-- Layout XML Files -->
+<!ENTITY messagewindow SYSTEM "messagewindow.xml">
+<!ENTITY messagewindowuntabbed SYSTEM "messagewindow-untabbed.xml">
+<!ENTITY windowborder SYSTEM "../windows/xml/layout/windowborder.xml">
+<!-- Controls/Prefs -->
+<!ENTITY messagecontrols SYSTEM "messagecontrols.xml">
+<!ENTITY files SYSTEM "../windows/xml/files.xml">
+<!-- Commonly called xml -->
+<!ENTITY groupheaderbackground SYSTEM "../windows/xml/common/groupheaderbg.xml">
+<!ENTITY resize SYSTEM "../windows/xml/common/resize.xml">
+<!-- Override /stixe specific stuff and import stixe -->
+<!ENTITY % StyleMain ''>
+<!ENTITY % ISt ''>
+<!ENTITY % InterfaceMain ''>
+
+<!ENTITY % ButtonsDTD SYSTEM "buttons.dtd">
+%ButtonsDTD;
+
+<!ENTITY % TrillianDTD			SYSTEM 	"../../stixe/trillian.dtd">
+%TrillianDTD;
+]>
+
+<trillian version="4.00"> <!-- Gotta have this for correctly layered frames -->
+	<skindesc name="Trillian Live Messagewindow" author="Scream81"/>
+	&ICONS;
+
+<!-- Define all the windows -->
+	&messagewindow;
+	&messagewindowuntabbed;
+
+<!-- Define all the controls -->
+	<prefs>
+		&messagecontrols;
+	</prefs>
+
+<!-- New Images for TrillianLive Message Window -->
+	<bitmap name="96online" 	file="96x96_online.png"/>
+	<bitmap name="96offline" 	file="96x96_offline.png"/>
+	<bitmap name="96away" 		file="96x96_away.png"/>
+	<bitmap name="96mobile" 	file="96x96_mobile.png"/>
+	<bitmap name="96invisible" 	file="96x96_invisible.png"/>
+	<bitmap name="48online" 	file="48x48_online.png"/>
+	<bitmap name="48offline" 	file="48x48_offline.png"/>
+	<bitmap name="48away" 		file="48x48_away.png"/>
+	<bitmap name="48mobile" 	file="48x48_mobile.png"/>
+	<bitmap name="48invisible" 	file="48x48_invisible.png"/>
+	<bitmap name="head96" 		file="head-96.png"/>
+	<bitmap	name="bmpTrillianLiveAssets"	file="TrillianLive-assets.png"  	filter_source="hueshift"/>
+	<bitmap	name="bmpTrillianLiveAssets-notheme"	file="TrillianLive-assets.png"  />
+	
+<!-- Message Styles -->
+	<message-display source="normal-chatview" />
+	<message-display source="display-console" description="Bubbles" preview="chatview-preview" default="yes"/>
+
+<!-- Message Window Assignment -->
+	<window name="all" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoMessageWindow" container_taskbar="trillian" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="all" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoMessageWindow" container_taskbar="trillian" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="aim" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoAIM" container_taskbar="AIM" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="aim" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoAIM" container_taskbar="AIM" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="google" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoGOOGLE" container_taskbar="GOOGLE" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="google" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoGOOGLE" container_taskbar="GOOGLE" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="myspace" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoMYSPACE" container_taskbar="MYSPACE" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="myspace" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoMYSPACE" container_taskbar="MYSPACE" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="rendezvous" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoRENDEZVOUS" container_taskbar="RENDEZVOUS" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="rendezvous" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoRENDEZVOUS" container_taskbar="RENDEZVOUS" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="msn" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoMSN" container_taskbar="msn" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="msn" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoMSN" container_taskbar="msn" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="irc" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoIRC" container_taskbar="irc" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="irc" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoIRC" container_taskbar="irc" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="icq" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoICQ" container_taskbar="icq" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="icq" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoICQ" container_taskbar="icq" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="jabber" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoJabber" container_taskbar="jabber" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="jabber" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoJabber" container_taskbar="jabber" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="yahoo" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoYahoo" container_taskbar="yahoo" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="yahoo" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoYahoo" container_taskbar="yahoo" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="astra" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoAstra" container_taskbar="astra" tabbed="yes"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="astra" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoAstra" container_taskbar="astra" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="facebook" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoFACEBOOK" container_taskbar="FACEBOOK" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="facebook" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoFACEBOOK" container_taskbar="FACEBOOK" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="twitter" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoTWITTER" container_taskbar="TWITTER" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="twitter" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoTWITTER" container_taskbar="TWITTER" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="foursquare" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoFOURSQUARE" container_taskbar="FOURSQUARE" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="foursquare" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoFOURSQUARE" container_taskbar="FOURSQUARE" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="linkedin" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoLINKEDIN" container_taskbar="LINKEDIN" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="linkedin" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoLINKEDIN" container_taskbar="LINKEDIN" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="skype" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoSKYPE" container_taskbar="SKYPE" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="skype" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoSKYPE" container_taskbar="SKYPE" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="vz" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoVZ" container_taskbar="VZ" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="vz" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoVZ" container_taskbar="VZ" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="schuelervz" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoSCHUELERVZ" container_taskbar="SCHUELERVZ" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="schuelervz" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoSCHUELERVZ" container_taskbar="SCHUELERVZ" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="multiple" type="privmsg" source="message" alpha="no" phase="default" taskbar="icoMessageWindow" container_taskbar="trillian" tabbed="yes" ><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+	<window name="multiple" type="privmsg" source="message-untabbed" alpha="no" phase="default" taskbar="icoMessageWindow" container_taskbar="trillian" tabbed="no" border="%system.windows.vista.glass%"><action name="setpersistentvariable" variable="%showavatar%" value="1"/></window>
+
+</trillian>
