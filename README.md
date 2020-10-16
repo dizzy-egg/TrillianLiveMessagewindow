@@ -7,7 +7,7 @@ This is a skin/theme for [Trillian](https://trillian.im/) which has been designe
 
 ## Screenshot
 
-
+![Preview](https://raw.githubusercontent.com/dizzy-egg/TrillianLiveMessagewindow/main/skins/TrillianLiveMessagewindow/preview.png)
 
 ## Installation Instructions
 
