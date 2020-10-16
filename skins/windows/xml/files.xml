@@ -1,0 +1,165 @@
+<!-- Bitmaps -->
+	<bitmap name="bitmap-window" file="images/window.png" filter_source="hueshift"/>
+	<bitmap name="bitmap-window-notifier" file="images/notifier-window@6.2os.png" minimum_os="62"/>
+	<bitmap name="bitmap-window-notifier-non-alpha" file="images/notifier-window-non-alpha@6.2os.png" minimum_os="62"/>
+	<bitmap name="bitmap-window-notifier" file="images/notifier-window.png"/>
+	<bitmap name="bitmap-window-notifier-blur" file="images/notifier-window-blur.png"/>
+	<bitmap name="bitmap-window-notifier-non-alpha" file="images/notifier-window-non-alpha.png"/>
+	<bitmap name="chatview-preview" file="images/chatview.png"/>
+	<bitmap name="head16" file="images/head-16.png"/>
+	<bitmap name="head24" file="images/head-24.png"/>
+	<bitmap name="head32" file="images/head-32.png"/>
+	<bitmap name="head48" file="images/head-48.png"/>
+	<bitmap name="groupchat16" file="images/groupchat-16.png"/>
+	<bitmap name="groupchat24" file="images/groupchat-24.png"/>
+	<bitmap name="groupchat32" file="images/groupchat-32.png"/>
+	<bitmap name="groupchat48" file="images/groupchat-48.png"/>
+	<bitmap name="news16" file="images/news16.png"/>
+	<bitmap name="news24" file="images/news24.png"/>
+	<bitmap name="news32" file="images/news32.png"/>
+	<bitmap name="news48" file="images/news48.png"/>
+	<bitmap name="mail16" file="images/mail16.png"/>
+	<bitmap name="mail24" file="images/mail24.png"/>
+	<bitmap name="mail32" file="images/mail32.png"/>
+	<bitmap name="mail48" file="images/mail48.png"/>
+	<bitmap name="maps16" file="images/maps16.png"/>
+	<bitmap name="maps24" file="images/maps24.png"/>
+	<bitmap name="maps32" file="images/maps32.png"/>
+	<bitmap name="maps48" file="images/maps48.png"/>
+	<bitmap name="bitmap-typing" file="images/typing.png"/>
+	<bitmap name="bitmap-text-typing" file="images/typing-animated.gif"/>
+	<bitmap name="tabs" file="images/tabs@6.2os.png" minimum_os="62"/>
+	<bitmap name="tabs-theme" file="images/tabs@6.2os.png" filter_source="hueshift" minimum_os="62"/>
+	<bitmap name="tabs" file="images/tabs.png"/>
+	<bitmap name="tabs-theme" file="images/tabs.png" filter_source="hueshift"/>
+	<bitmap name="sectionbutton" file="images/sectionbutton.png" filter_source="hueshift"/>
+	<bitmap name="icoAdd" file="images/add.ico"/>
+	
+	<bitmap name="scrollbars-asset" file="images/scrollbars@6.2os.png" filter_source="hueshift" minimum_os="62"/>
+	<bitmap name="scrollbars-asset" file="images/scrollbars.png" filter_source="hueshift"/>
+	<bitmap name="general16-asset" file="images/general16@6.2os.png" filter_source="hueshift" minimum_os="62"/>
+	<bitmap name="general16-asset-notheme" file="images/general16@6.2os.png" minimum_os="62"/>
+	<bitmap name="general16-asset" file="images/general16.png" filter_source="hueshift"/>
+	<bitmap name="general16-asset-notheme" file="images/general16.png"/>
+	<bitmap name="general12-asset" file="images/general12.png"/>
+	<bitmap name="general12-asset-theme" file="images/general12.png" filter_source="hueshift"/>
+	<bitmap name="windowbuttons-asset" file="images/windowbuttons@6.2os.png" minimum_os="62"/>
+	<bitmap name="windowbuttons-asset-theme" file="images/windowbuttons@6.2os.png" filter_source="hueshift" minimum_os="62"/>
+	<bitmap name="windowbuttons-asset" file="images/windowbuttons.png"/>
+	<bitmap name="windowbuttons-asset-theme" file="images/windowbuttons.png" filter_source="hueshift"/>
+	<bitmap name="av-asset" file="images/av.png" filter_source="hueshift"/>
+	<bitmap name="buttons-asset" file="images/buttons@6.2os.png" filter_source="hueshift" minimum_os="62"/>
+	<bitmap name="buttons-asset" file="images/buttons.png" filter_source="hueshift"/>
+	<bitmap name="textboxes-asset" file="images/textboxes@6.2os.png" filter_source="hueshift" minimum_os="62"/>
+	<bitmap name="textboxes-asset" file="images/textboxes.png" filter_source="hueshift"/>
+	<bitmap name="transfer-asset" file="images/filetransfer@6.2os.png" minimum_os="62"/>
+	<bitmap name="transfer-asset" file="images/filetransfer.png"/>
+	<bitmap name="skin-asset" file="images/skin-assets@6.2os.png" filter_source="hueshift" minimum_os="62"/>
+	<bitmap name="skin-asset" file="images/skin-assets.png" filter_source="hueshift"/>
+	<bitmap name="baralerts-asset" file="images/bar-alerts@6.2os.png" filter_source="hueshift" minimum_os="62"/>
+	<bitmap name="baralerts-asset-notheme" file="images/bar-alerts@6.2os.png" minimum_os="62"/>
+	<bitmap name="baralerts-asset" file="images/bar-alerts.png" filter_source="hueshift"/>
+	<bitmap name="baralerts-asset-notheme" file="images/bar-alerts.png"/>
+	<bitmap name="container-asset" file="images/container-assets.png" filter_source="hueshift"/>
+	<bitmap name="loading" file="images/loading.png"/>
+	<bitmap name="error" file="images/error.png"/>
+	<bitmap name="bubbles" file="images/bubbles.png" filter_source="hueshift"/>
+
+<!-- Fonts -->
+	<font name="segoeui" file="segoeui.ttf"/>
+
+	<theme name="default" description="Blue">
+		<filter name="hueshift">
+			<hue num="0"/>
+			<saturation num="0"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="follow" description="Follow Windows">
+		<filter name="hueshift">
+			<hue num="%system.windows.hue%"/>
+			<saturation num="%system.windows.saturation%"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="red" description="Red">
+		<filter name="hueshift">
+			<hue num="150"/>
+			<saturation num="0"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="pink" description="Pink">
+		<filter name="hueshift">
+			<hue num="115"/>
+			<saturation num="0"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="orange" description="Orange">
+		<filter name="hueshift">
+			<hue num="180"/>
+			<saturation num="0"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="yellow" description="Yellow">
+		<filter name="hueshift">
+			<hue num="-150"/>
+			<saturation num="-50"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="olive" description="Olive">
+		<filter name="hueshift">
+			<hue num="-135"/>
+			<saturation num="-50"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="lime" description="Lime">
+		<filter name="hueshift">
+			<hue num="-120"/>
+			<saturation num="-50"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="green" description="Green">
+		<filter name="hueshift">
+			<hue num="-90"/>
+			<saturation num="-50"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="teal" description="Teal">
+		<filter name="hueshift">
+			<hue num="-45"/>
+			<saturation num="-50"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="purple" description="Purple">
+		<filter name="hueshift">
+			<hue num="60"/>
+			<saturation num="0"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
+
+	<theme name="platinum" description="Platinum">
+		<filter name="hueshift">
+			<hue num="0"/>
+			<saturation num="-100"/>
+			<brightness num="0"/>
+		</filter>
+	</theme>
