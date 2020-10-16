@@ -1,5 +1,4 @@
-# TrillianLiveMessageWindow
-A skin for Trillian instant messenger which emulates the look and feel of Windows Live Messenger / MSN Messenger
+# TrillianLiveMessagewindow
 
 ## About
 
@@ -7,7 +6,7 @@ This is a skin/theme for [Trillian](https://trillian.im/) which has been designe
 
 ## Screenshot
 
-![Preview](https://raw.githubusercontent.com/dizzy-egg/TrillianLiveMessagewindow/main/skins/TrillianLiveMessagewindow/preview.png)
+![Preview](https://raw.githubusercontent.com/dizzy-egg/TrillianLiveMessagewindow/main/skins/TrillianLiveMessagewindow/preview1.png)
 
 ## Installation Instructions
 
