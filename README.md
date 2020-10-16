@@ -10,9 +10,11 @@ This is a skin/theme for [Trillian](https://trillian.im/) which has been designe
 
 ## Installation Instructions
 
-1. Download the skin .zip file from the [releases](https://github.com/dizzy-egg/TrillianLiveMessageWindow/releases) page of this repository.
-2. Open Trillian's `skins` folder; usually located at `C:\Program Files (x86)\Trillian\skins`. Take a backup of the folder's contents if desired.
-3. Open the downloaded .zip file and drag both folders (`TrillianLiveMessagewindow` and `windows`) into the Trillian `skins` folder. Overwrite existing files if required.
+1. Download the skin .zip file by [clicking here 🔗](https://github.com/dizzy-egg/TrillianLiveMessagewindow/raw/main/TrillianLiveMessagewindow.zip), or from the [releases](https://github.com/dizzy-egg/TrillianLiveMessageWindow/releases) page of this repository.
+2. Open Trillian's `skins` folder; usually `C:\Program Files (x86)\Trillian\skins`. 
+    * Take a backup of the folder's contents if desired.
+3. Open the downloaded .zip file and drag both folders (`TrillianLiveMessagewindow` and `windows`) into the Trillian `skins` folder
+    * Overwrite existing files if asked.
 4. Restart Trillian.
 5. Open Trillian's Settings window:
     * Under `Chat Windows`, select `Show Messages As` → `Simple`
